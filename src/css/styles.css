@@ -10,10 +10,48 @@ body {
   background-color: var(--color-secondary);
 }
 
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+nav,
+#menu-checkbox {
+  display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+
+header {
+  position: relative;
+  background: #638fa5;
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+nav {
+  position: absolute;
+  background: #638fa5;
+  left: 0px;
+}
+
+nav a {
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+@media (min-width: 600px) {
+ nav {
+    display: block;
+    position: static;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  nav a {
+    display: inline-block;
+  }
+
 }
