@@ -2,6 +2,75 @@
 /* This could be colors, fonts, or padding sizes! */
 
 :root {
-  --color-primary: #7be447;
-  --color-secondary: #1f1f1f;
+  --color-primary: #0A3641;
+  --color-secondary: #F6FCFF;
+
+  /* colors */
+  --green: #0A3641;
+  --teal: #027372;
+  --lightblue: #C4EBFF;
+  --yellow: #FCA311;
+
+  /* shades */
+  --black: #101010;
+  --gray-4: #595D62;
+  --gray-3: #969696;
+  --gray-2: #dedede;
+  --gray-1: #f5f5f5;
+  --white: #fff;
+
+  /* feedback */
+  --color-success: #28C373;
+  --color-error: #CC2E22;
+  --color-warning: #F0BF4E;
+
+  /* typography */
+  --color-text: var(--color-primary);
+  --color-text-heading: var(--color-primary);
+  --color-link: var(--teal);
+
+  /* body */
+  --color-body: var(--white);
+
+  --padding-x: 80px;
+  --mobile-padding-x: 20px;
+  
+
+/* buttons
+  --btn-primary-bg: var(--color-primary);
+  --btn-primary-hover: var(--color-primary-light);
+  --btn-primary-active: var(--color-primary-dark);
+  --btn-primary-label: var(--white); */
+
+  /* icons 
+  --color-icon-primary: var(--gray-4);
+  --color-icon-secondary: inherit; */
+
 }
+
+/* fonts */
+body {
+  font-family: "muli", Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Noto Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+nav a {
+  font-family: "Noto Sans", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* font-family: "muli", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "muli", sans-serif;
+font-weight: 700;
+font-style: normal; */
