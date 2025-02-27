@@ -27,7 +27,7 @@
   /* typography */
   --color-text: var(--color-primary);
   --color-text-heading: var(--color-primary);
-  --color-link: var(--teal);
+  --color-link: var(--yellow);
 
   /* body */
   --color-body: var(--white);
@@ -35,16 +35,15 @@
   --padding-x: 80px;
   --mobile-padding-x: 20px;
   
+  /* icons */
+  --color-icon-primary: var(--color-primary);
+  --color-icon-secondary: var(--white);
 
-/* buttons
+  /* buttons
   --btn-primary-bg: var(--color-primary);
   --btn-primary-hover: var(--color-primary-light);
   --btn-primary-active: var(--color-primary-dark);
   --btn-primary-label: var(--white); */
-
-  /* icons 
-  --color-icon-primary: var(--gray-4);
-  --color-icon-secondary: inherit; */
 
 }
 
