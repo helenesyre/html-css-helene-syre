@@ -35,28 +35,30 @@
     </header>
     <main class="container">
       <section>
-        <div>
-          <h1>Contact our team</h1>
-          <p>Whether you have a question, need assistance, or want to collaborate, we’re here to help. Feel free to reach out, and we’ll get back to you as soon as possible.</p>
-        </div>
-      </section>
-      <section class="contact-methods">
-        <div>
-          <h3>Chat with us</h3>
-          <p>Speak to our friendly team via live chat.</p>
+        <section class="hero-text">
           <div>
-            <p><img src="assets/icons/chat-icon.svg" alt="Chat Icon" /> Start a <a href="#">live chat</a></p>
-            <p><img src="assets/icons/email-icon.svg" alt="Email Icon" /> Shoot us an <a href="#">email</a></p>
-            <p><img src="assets/icons/fb-icon.svg" alt="Facebook Icon" /> Message us on <a href="#">Facebook</a></p>
+            <h1>Contact our team</h1>
+            <p>Whether you have a question, need assistance, or want to collaborate, we’re here to help. Feel free to reach out, and we’ll get back to you as soon as possible.</p>
           </div>
-        </div>
-        <div>
-          <h3>Call us</h3>
-          <p>Call our team Mon-Fri from 8am to 6pm.</p>
+        </section>
+        <section class="contact-methods">
           <div>
-            <p><img src="assets/icons/phone-icon.svg" alt="Phone Icon" /> Call Us on <a href="#">email+1 (123) 000-0000</a></p>
+            <h3>Chat with us</h3>
+            <p>Speak to our friendly team via live chat.</p>
+            <div>
+              <p><img src="assets/icons/chat.svg" alt="Chat Icon" class="contact-icon" /> Start a <a href="#">live chat</a></p>
+              <p><img src="assets/icons/email.svg" alt="Email Icon" class="contact-icon" /> Shoot us an <a href="#">email</a></p>
+              <p><img src="assets/icons/fb.svg" alt="Facebook Icon" class="contact-icon" /> Message us on <a href="#">Facebook</a></p>
+            </div>
           </div>
-        </div>
+          <div>
+            <h3>Call us</h3>
+            <p>Call our team Mon-Fri from 8am to 6pm.</p>
+            <div>
+              <p><img src="assets/icons/phone.svg" alt="Phone Icon" class="contact-icon" /> Call Us on <a href="#">email+1 (123) 000-0000</a></p>
+            </div>
+          </div>
+        </section>
       </section>
       <form method="POST" class="contact-form">
         <label for="fname">First name</label>
@@ -69,9 +71,11 @@
 
         <label for="phone-number">Phone Number</label>
         <input id="phone-number" name="phone-number" placeholder="(XXX) XXX-XXXX"/>
-
-        <input type="checkbox" id="not-robot" name="not-robot" />
-        <label for="not-robot">I’m not a robot.</label>
+        
+        <div>
+          <input type="checkbox" id="not-robot" name="not-robot" />
+          <label for="not-robot">I’m not a robot.</label>
+        </div>
 
         <label for="message">Message</label>
         <textarea id="message" name="message" placeholder="Leave us a message..."></textarea>
