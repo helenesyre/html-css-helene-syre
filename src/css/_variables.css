@@ -8,8 +8,11 @@
   /* colors */
   --green: #0A3641;
   --teal: #027372;
+  --teal-hover: #009392;
   --lightblue: #C4EBFF;
   --yellow: #FCA311;
+  --yellow-hover: #FFBC4D;
+  --teal-border-hover: #156579;
 
   /* shades */
   --black: #101010;
@@ -39,12 +42,6 @@
   /* icons */
   --color-icon-primary: var(--color-primary);
   --color-icon-secondary: var(--white);
-
-  /* buttons
-  --btn-primary-bg: var(--color-primary);
-  --btn-primary-hover: var(--color-primary-light);
-  --btn-primary-active: var(--color-primary-dark);
-  --btn-primary-label: var(--white); */
 
 }
 
