@@ -23,7 +23,7 @@
         <a href="women.html">Women</a>
         <a href="men.html">Men</a>
         <a href="about.html">About us</a>
-        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="active">Contact</a>
         <a href="outlet.html">Outlet</a>
         </div>
         <div class="nav-icons">
@@ -34,54 +34,63 @@
       </nav>
     </header>
     <main class="container">
-      <section>
-        <section class="hero-text">
-          <div>
+        <div class="hero-text">
             <h1>Contact our team</h1>
-            <p>Whether you have a question, need assistance, or want to collaborate, we’re here to help. Feel free to reach out, and we’ll get back to you as soon as possible.</p>
-          </div>
-        </section>
-        <section class="contact-methods">
-          <div>
-            <h3>Chat with us</h3>
-            <p>Speak to our friendly team via live chat.</p>
-            <div>
-              <p><img src="assets/icons/chat.svg" alt="Chat Icon" class="contact-icon" /> Start a <a href="#">live chat</a></p>
-              <p><img src="assets/icons/email.svg" alt="Email Icon" class="contact-icon" /> Shoot us an <a href="#">email</a></p>
-              <p><img src="assets/icons/fb.svg" alt="Facebook Icon" class="contact-icon" /> Message us on <a href="#">Facebook</a></p>
-            </div>
-          </div>
-          <div>
-            <h3>Call us</h3>
-            <p>Call our team Mon-Fri from 8am to 6pm.</p>
-            <div>
-              <p><img src="assets/icons/phone.svg" alt="Phone Icon" class="contact-icon" /> Call Us on <a href="#">email+1 (123) 000-0000</a></p>
-            </div>
-          </div>
-        </section>
-      </section>
-      <form method="POST" class="contact-form">
-        <label for="fname">First name</label>
-        <input type="text" id="fname" name="fname" placeholder="John" required />
-        <label for="lname">Last name</label>
-        <input type="text" id="lname" name="lname" placeholder="Doe" required />
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="Email" placeholder="johndoe@gmail.com" required/>
-
-        <label for="phone-number">Phone Number</label>
-        <input id="phone-number" name="phone-number" placeholder="(XXX) XXX-XXXX"/>
-        
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Leave us a message..."></textarea>
-        
-        <div>
-          <input type="checkbox" id="not-robot" name="not-robot" />
-          <label for="not-robot">I’m not a robot.</label>
         </div>
+      <section class="flex-test">
+        <div>
+          <p class="contact-information">Whether you have a question, need assistance, or want to collaborate, we’re here to help. Feel free to reach out, and we’ll get back to you as soon as possible.</p>
+          <section>
+            <section class="contact-methods">
+              <div>
+                <h3>Chat with us</h3>
+                <p>Speak to our friendly team via live chat.</p>
+                <div>
+                  <p><img src="assets/icons/chat.svg" alt="Chat Icon" class="contact-icon" /> Start a <a href="#">live chat</a></p>
+                  <p><img src="assets/icons/email.svg" alt="Email Icon" class="contact-icon" /> Shoot us an <a href="#">email</a></p>
+                  <p><img src="assets/icons/fb.svg" alt="Facebook Icon" class="contact-icon" /> Message us on <a href="#">Facebook</a></p>
+                </div>
+              </div>
+              <div>
+                <h3>Call us</h3>
+                <p>Call our team Mon-Fri from 8am to 6pm.</p>
+                <div>
+                  <p><img src="assets/icons/phone.svg" alt="Phone Icon" class="contact-icon" /> Call Us on <a href="#">email+1 (123) 000-0000</a></p>
+                </div>
+              </div>
+            </section>
+        </div>
+        
+        <form method="POST" class="contact-form">
+          <div class="flex-row">
+            <div class="flex-col">
+              <label for="fname">First name</label>
+              <input type="text" id="fname" name="fname" placeholder="John" required />
+            </div>
+            <div class="flex-col">
+              <label for="lname">Last name</label>
+              <input type="text" id="lname" name="lname" placeholder="Doe" required />
+            </div>
+          </div>
+          
 
-        <input type="submit" value="Send message" class="cta cta-green cta-large" />
-      </form>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" placeholder="johndoe@gmail.com" required/>
+
+          <label for="phone-number">Phone Number</label>
+          <input id="phone-number" name="phone-number" placeholder="(XXX) XXX-XXXX"/>
+          
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Leave us a message..." class="message"></textarea>
+          
+          <div>
+            <input type="checkbox" id="not-robot" name="not-robot" />
+            <label for="not-robot">I’m not a robot.</label>
+          </div>
+
+          <input type="submit" value="Send message" class="cta cta-green cta-large" />
+        </form>
+      </section>
     </main>
     <footer class="container">
       <section class="footer-main">
