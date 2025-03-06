@@ -72,20 +72,23 @@
         <label for="phone-number">Phone Number</label>
         <input id="phone-number" name="phone-number" placeholder="(XXX) XXX-XXXX"/>
         
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Leave us a message..."></textarea>
+        
         <div>
           <input type="checkbox" id="not-robot" name="not-robot" />
           <label for="not-robot">I’m not a robot.</label>
         </div>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Leave us a message..."></textarea>
-        <input type="submit" value="Send message" class="cta" />
+        <input type="submit" value="Send message" class="cta cta-green cta-large" />
       </form>
     </main>
     <footer class="container">
-      <a href="index.html"><img src = "assets/images/raynidays-logo.svg" alt="Rainy Days logo" class="logo footer"/></a>
-      <section>
-        <div>
+      <section class="footer-main">
+        <div class="footer-content">
+          <a href="index.html"><img src = "assets/images/raynidays-logo.svg" alt="Rainy Days logo" class="logo footer"/></a>
+        </div>
+        <div class="footer-content">
           <h3>Products</h3>
           <ul>
             <li><a href="women-html">Women</a></li>
@@ -93,7 +96,7 @@
             <li><a href="outlet.html">Outlet</a></li>
           </ul>
         </div>
-        <div>
+        <div class="footer-content">
           <h3>Need any help?</h3>
           <ul>
             <li><a href="#">Customer Service</a></li>
@@ -102,14 +105,14 @@
             <li><a href="#">FAQ</a></li>
           </ul>
         </div>
-        <div>
+        <div class="footer-content">
           <h3>Company</h3>
           <ul>
             <li><a href="about.html">About us</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
-        <div>
+        <div class="footer-content">
           <h3>Follow us</h3>
           <ul>
             <li><a href="#">Instagram</a></li>
@@ -117,8 +120,11 @@
             <li><a href="#">LinkedIn</a></li>
           </ul>
         </div>
-      </section class="copyright">
-      <p>Copyright &copy; 2025 | Raindays. All rights reserved.</p>
+      </section>
+      <section class="footer-bottom">
+        <hr>
+        <p class="copyright">Copyright &copy; 2025 | Raindays. All rights reserved.</p>
+      </section>
     </footer>
   </body>
 </html>
