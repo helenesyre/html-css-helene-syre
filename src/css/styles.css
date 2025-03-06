@@ -60,8 +60,63 @@ nav a {
   white-space: nowrap;
 }
 
-section {
-  margin: 50px 0;
+/* Buttons */
+.cta {
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.cta-md {
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px 16px;
+}
+
+.cta-sm {
+  font-size: 12px;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+/* Contact button. Cart process button. */
+.cta-green {
+  background-color: var(--teal); /* Green */
+  color: white;
+  border: none;
+}
+
+.cta-green:hover {
+  background-color: var(--teal-hover);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+/* Homepage header button */
+.cta-yellow {
+  background-color: var(--yellow); /* Yellow */
+  color: var(--green);
+  border: none;
+}
+
+.cta-yellow:hover {
+  background-color: var(--yellow-hover);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+/* Shop products. See products button. Cart process button. */
+.cta-border {
+  background-color: transparent; /* Transparent */
+  color: var(--green);
+  border: 1.5px solid var(--green);
+}
+
+.cta-border:hover {
+  background-color: rgba(2, 115, 114, 0.2);
+  color: var(--teal-border-hover);
+  border: 1.5px solid var(--teal-border-hover);
+  cursor: pointer;
+  transition: color 0.3s;
 }
 
 /* Logo */
@@ -78,6 +133,7 @@ footer .logo {
   height: 60px;
   width: auto;
   transition: all 0.3s;
+  margin-top: 40px;
 }
 
 /* Icons */
@@ -115,11 +171,6 @@ a {
   text-decoration: none;
 }
 
-.contact-methods a {
-  color: var(--yellow);
-  text-decoration: underline;
-}
-
 /* Hero section */
 .hero {
   background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url("../../assets/images/home-header.jpg") no-repeat;
@@ -150,6 +201,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin: 50px 0;
 }
 
 .container-flex img{
@@ -186,16 +238,56 @@ h1 {
 }
 
 /* Contact */
-.contact-form {
+.contact-form,
+.contact-methods {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 8px;
+  margin: 50px 0px;
+  max-width: 646px;
+}
+
+input,
+select,
+textarea {
+  padding: 18px 16px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1.5px solid #DEDEDE;
+  background: #FFF;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.15) inset;
+  margin-bottom: 24px;
+}
+
+form label {
+  color: rgba(10, 54, 65, 0.5);
+}
+
+form,
+.contact-methods {
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 0px 8px 0px rgba(10, 54, 65, 0.10);
+  padding: 24px 32px 32px 32px;
+}
+
+.contact-methods a {
+  color: var(--yellow);
+  text-decoration: underline;
 }
 
 /* Footer */
 footer {
   background: var(--color-primary);
   color: white;
+}
+
+.footer-main {
+
+}
+
+.footer-content {
+  
 }
 
 footer ul {
@@ -217,8 +309,24 @@ footer h3 {
   margin: 0;
 }
 
-footer section {
-  margin: 20px 0;
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+hr {
+  border: rgba(255,255,255, 0.4);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.copyright {
+  padding-bottom: 30px;
 }
 
 /* iPad/tablet */
