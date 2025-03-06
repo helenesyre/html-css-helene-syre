@@ -32,8 +32,9 @@
   /* body */
   --color-body: var(--white);
 
-  --padding-x: 80px;
-  --mobile-padding-x: 20px;
+  --padding-x: 180px;
+  --ipad-padding-x: 60px;
+  --mobile-padding-x: 40px;
   
   /* icons */
   --color-icon-primary: var(--color-primary);
