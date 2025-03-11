@@ -12,27 +12,266 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Adobe fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/agy5uqj.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link href="src/css/product.css" rel="stylesheet" />
+    <link href="src/css/media.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html">Logo</a>
-        <ul>
-          <li><a href="women.html" class="active">Women</a></li>
-          <li><a href="men.html">Men</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="outlet.html">Outlet</a></li>
-        </ul>
-        <ul>
-          <li><a href="search.html">Search</a></li>
-          <li><a href="cart.html">Cart</a></li>
-          <li><a href="login.html">Login</a></li>
-        </ul>
+    <header class="secondary-container">
+      <input type="checkbox" id="menu-checkbox" />
+      <label for="menu-checkbox" class="hamburger-icon" id="menu-toggle">☰</label>
+      <nav class="secondary-nav static-header">
+        <a href="index.html"><img src = "assets/images/raynidays-logo.svg" alt="Rainy Days logo" class="logo-green"/></a>
+        <div class="nav-links">
+        <a href="women.html" class="active">Women</a>
+        <a href="men.html">Men</a>
+        <a href="about.html">About us</a>
+        <a href="contact.html">Contact</a>
+        <a href="outlet.html">Outlet</a>
+        </div>
+        <div class="nav-icons">
+          <a href="search.html"><img src="assets/icons/search.svg" alt="Search icon" class="icon-green"></a>
+          <a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon" class="icon-green"></a>
+          <a href="login.html"><img src="assets/icons/login.svg" alt="Login icon" class="icon-green"></a>
+        </div>
       </nav>
     </header>
-    <main>
-   
+    <main class="container">
+      <section>
+        <img src="assets/images/women-header.jpg" alt="Yellow women rainjacket" class="hero-image"/>
+      </section>
+      <h1 class="title-center">Women rain jackets</h1>
+<!-- product-filter -->
+<!-- ??? -->
+<!-- filter-dropdowns -->
+      <h2>Everyday use</h2>
+      <section class="product-list">
+        <div class="products">
+          <img src="assets/images/products/product1.jpg" alt="Blue rainjacket from behind" class="product-image"/>
+          <div>
+            <div class="product-info">
+              <h3>Lysefjord - women</h3>
+              <p class="price">€129,00</p>
+              <p class="product-description">Perfect fit for everyday use and hiking</p>
+            </div>
+            <div class="product-actions">
+              <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+              <button class="cta-sm cta-border">See product</button>
+            </div>
+          </div>
+        </div>
+        <div class="products">
+          <img src="assets/images/women-rainjacket-blue.jpg" alt="Black rain poncho for women" class="product-image"/>
+          <div>
+            <div class="product-info">
+              <h3>Ryfylke - women</h3>
+              <p class="price">€179,00</p>
+              <p class="product-description">Poncho for everyday use</p>
+            </div>
+            <div class="product-actions">
+              <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+              <button class="cta-sm cta-border">See product</button>
+            </div>
+          </div>
+        </div>
+        <div class="products">
+          <img src="assets/images/women-rainjacket-blue.jpg" alt="Yellow rainjacket and umberella" class="product-image"/>
+          <div>
+            <div class="product-info">
+              <h3>Dovre - women</h3>
+              <p class="price">€89,00</p>
+              <p class="product-description">Rain resistance and colorful</p>
+            </div>
+            <div class="product-actions">
+              <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+              <button class="cta-sm cta-border">See product</button>
+            </div>
+          </div>
+        </div>
+        <div class="products">
+          <img src="assets/images/women-rainjacket-blue.jpg" alt="Black rain jacket with hood" class="product-image"/>
+          <div>
+            <div class="product-info">
+              <h3>Trondheim - women</h3>
+              <p class="price">€199,00</p>
+              <p class="product-description">For colder use and rainy days</p>
+            </div>
+            <div class="product-actions">
+              <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+              <button class="cta-sm cta-border">See product</button>
+            </div>
+          </div>
+        </div>
+        <div class="products">
+          <img src="assets/images/women-rainjacket-blue.jpg" alt="Brown and thicker rainjacket" class="product-image"/>
+          <div>
+            <div class="product-info">
+              <h3>Arendal - women</h3>
+              <p class="price">€99,00</p>
+              <p class="product-description">For hiking with colder weather</p>
+            </div>
+            <div class="product-actions">
+              <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+              <button class="cta-sm cta-border">See product</button>
+            </div>
+          </div>
+        </div>
+        <div class="products">
+          <img src="assets/images/women-rainjacket-blue.jpg" alt="Black everyday use jacket" class="product-image"/>
+          <div>
+            <div class="product-info">
+              <h3>Grimstad - women</h3>
+              <p class="price">€59,00</p>
+              <p class="product-description">Everyday use with class</p>
+            </div>
+            <div class="product-actions">
+              <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+              <button class="cta-sm cta-border">See product</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h2>Hiking</h2>
+      <section class="product-list">
+        <div class="products">
+          <img src="assets/images/women-rainjacket-blue.jpg" alt="Blue rainjacket from behind" class="product-image"/>
+          <div>
+            <div class="product-info">
+              <h3>Lysefjord - women</h3>
+              <p class="price">€129,00</p>
+              <p class="product-description">Perfect fit for everyday use and hiking</p>
+            </div>
+            <div class="product-actions">
+              <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+              <button class="cta-sm cta-border">See product</button>
+            </div>
+          </div>
+        </div>
+        <div class="products">
+          <img src="assets/images/women-rainjacket-blue.jpg" alt="Blue rainjacket from behind" class="product-image"/>
+          <div>
+            <div class="product-info">
+              <h3>Lysefjord - women</h3>
+              <p class="price">€129,00</p>
+              <p class="product-description">Perfect fit for everyday use and hiking</p>
+            </div>
+            <div class="product-actions">
+              <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+              <button class="cta-sm cta-border">See product</button>
+            </div>
+          </div>
+        </div>
+        <div class="products">
+          <img src="assets/images/women-rainjacket-blue.jpg" alt="Blue rainjacket from behind" class="product-image"/>
+          <div>
+            <div class="product-info">
+              <h3>Lysefjord - women</h3>
+              <p class="price">€129,00</p>
+              <p class="product-description">Perfect fit for everyday use and hiking</p>
+            </div>
+            <div class="product-actions">
+              <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+              <button class="cta-sm cta-border">See product</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h2>Skiing</h2>
+        <section class="product-list">
+          <div class="products">
+            <img src="assets/images/women-rainjacket-blue.jpg" alt="Blue rainjacket from behind" class="product-image"/>
+            <div>
+              <div class="product-info">
+                <h3>Lysefjord - women</h3>
+                <p class="price">€129,00</p>
+                <p class="product-description">Perfect fit for everyday use and hiking</p>
+              </div>
+              <div class="product-actions">
+                <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+                <button class="cta-sm cta-border">See product</button>
+              </div>
+            </div>
+          </div>
+          <div class="products">
+            <img src="assets/images/women-rainjacket-blue.jpg" alt="Blue rainjacket from behind" class="product-image"/>
+            <div>
+              <div class="product-info">
+                <h3>Lysefjord - women</h3>
+                <p class="price">€129,00</p>
+                <p class="product-description">Perfect fit for everyday use and hiking</p>
+              </div>
+              <div class="product-actions">
+                <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+                <button class="cta-sm cta-border">See product</button>
+              </div>
+            </div>
+          </div>
+          <div class="products">
+            <img src="assets/images/women-rainjacket-blue.jpg" alt="Blue rainjacket from behind" class="product-image"/>
+            <div>
+              <div class="product-info">
+                <h3>Lysefjord - women</h3>
+                <p class="price">€129,00</p>
+                <p class="product-description">Perfect fit for everyday use and hiking</p>
+              </div>
+              <div class="product-actions">
+                <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+                <button class="cta-sm cta-border">See product</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <h2>Training</h2>
+        <section class="product-list">
+          <div class="products">
+            <img src="assets/images/women-rainjacket-blue.jpg" alt="Blue rainjacket from behind" class="product-image"/>
+            <div>
+              <div class="product-info">
+                <h3>Lysefjord - women</h3>
+                <p class="price">€129,00</p>
+                <p class="product-description">Perfect fit for everyday use and hiking</p>
+              </div>
+              <div class="product-actions">
+                <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+                <button class="cta-sm cta-border">See product</button>
+              </div>
+            </div>
+          </div>
+          <div class="products">
+            <img src="assets/images/women-rainjacket-blue.jpg" alt="Blue rainjacket from behind" class="product-image"/>
+            <div>
+              <div class="product-info">
+                <h3>Lysefjord - women</h3>
+                <p class="price">€129,00</p>
+                <p class="product-description">Perfect fit for everyday use and hiking</p>
+              </div>
+              <div class="product-actions">
+                <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+                <button class="cta-sm cta-border">See product</button>
+              </div>
+            </div>
+          </div>
+          <div class="products">
+            <img src="assets/images/women-rainjacket-blue.jpg" alt="Blue rainjacket from behind" class="product-image"/>
+            <div>
+              <div class="product-info">
+                <h3>Lysefjord - women</h3>
+                <p class="price">€129,00</p>
+                <p class="product-description">Perfect fit for everyday use and hiking</p>
+              </div>
+              <div class="product-actions">
+                <button class="cta-round"><a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon icon-green"></a></button>
+                <button class="cta-sm cta-border">See product</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
     </main>
     <footer class="container">
       <section class="footer-main">
