@@ -54,11 +54,6 @@
       font-size: 2.5rem;
       font-weight: 500;
     }
-    
-    h3 {
-      font-size: 1.25rem;
-      font-weight: 600;
-    }
   
     .hero-text {
       width: 66%;
@@ -109,6 +104,12 @@
     .col-span-2 {
       grid-column: 1 / 2;
     }
+
+    /* image carousel */
+    .image-box {
+      width: 300px;
+      height: 450px;
+  }
   
     /* Contact */
     .contact-methods {
@@ -131,9 +132,31 @@
     .hero-image {
       max-height: 360px;
     }
+
+  .product-info {
+    grid-template-columns: 1fr auto;
+    margin-bottom: 12px;
+  }
+
+  .item-2 {
+    order: 2;
+  }
+  .item-3 {
+    order: 3;
+  }
+
+  .product-info h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  
+  .product-description {
+    margin: 0px 0px 8px 0px;
+  }
   
     .price {
       font-size: 1.25rem;
+      margin: 0px;
     }
    
     /* Footer */
