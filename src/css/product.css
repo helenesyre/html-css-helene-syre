@@ -27,12 +27,28 @@
   }
   
   .product-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    margin-bottom: 12px;
+  }
+
+   /*.product-info {
     background-color: #fbfbfb;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-row: auto auto;
     grid-column-gap: 20px;
     grid-row-gap: 0px;
+  }*/
+
+  .item-2 {
+    order: 3;
+  }
+  .item-3 {
+    order: 2;
   }
 
   .product-info h3 {
@@ -41,15 +57,15 @@
   }
   
   .product-description {
-    margin: 0px 0px 18px 0px;
+    margin: 0px 0px 8px 0px;
   }
   
   .price {
     font-family: "Noto Sans", serif;
     font-weight: 800;
     color: var(--teal);
-    font-size: 1rem;
-    margin: 0;
+    font-size: 1.25rem;
+    margin: 8px 0px 12px 0px;
   }
   
   .product-actions {
