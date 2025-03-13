@@ -10,6 +10,7 @@
   --teal: #027372;
   --teal-hover: #009392;
   --lightblue: #C4EBFF;
+  --lightblue-50: rgba(196, 235, 255, 0.5);
   --yellow: #FCA311;
   --yellow-hover: #FFBC4D;
   --teal-border-hover: #156579;
@@ -52,7 +53,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3
+h4 {
   font-family: "Noto Sans", serif;
   font-weight: 600;
   font-style: normal;
