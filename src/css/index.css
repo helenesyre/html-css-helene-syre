@@ -89,10 +89,10 @@
   /* image carousel */
   .image-box {
     margin: 0px;
-    width: 300px;
+    width: 275px;
     position: relative;
     display: flex;
-    height: 450px;
+    height: 400px;
   }
   
   .image-button {
@@ -121,6 +121,7 @@
     display: none;
   }
 
+  /* About us CTA */
   .about-cta {
     background-color: var(--lightblue-50);
     display: flex;
