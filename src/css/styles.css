@@ -42,6 +42,10 @@ h3 {
   font-weight: 600;
 }
 
+.no-margin{
+  margin: 0px;
+}
+
 /* Navigation */
 nav,
 #menu-checkbox {
@@ -79,15 +83,14 @@ nav {
 }
 
 nav a {
-  --link-color: var(--green);
   display: block;
-  color: var(--color-primary);
+  color: var(--link-color);
   font-size: 1rem;
   white-space: nowrap;
 }
 
-body .home nav a {
-  --link-color: var(--white);
+body.home nav a {
+  --link-color: var(--green);
 }
 
 nav a:hover {
@@ -241,6 +244,19 @@ ul.breadcrumb li a:hover {
   filter: invert(16%) sepia(70%) saturate(521%) hue-rotate(145deg) brightness(93%) contrast(97%);
   height: 24px;
   width: auto;
+}
+
+/* Box stiling */
+.box-styling {
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 0px 8px 0px rgba(10, 54, 65, 0.10);
+  padding: 26px;
+}
+
+.box-styling a {
+  color: var(--yellow);
+  text-decoration: underline;
 }
 
 /* Links */
