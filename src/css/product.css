@@ -133,5 +133,36 @@
   height: 18px;
   width: auto;
 }
+
+.arrow {
+  height: 12px;
+  width: auto;
+}
+
+/* Shipping information */
+.shipping-information {
+  align-items: center;
+}
+
+.information-icon {
+  height: 64px;
+  width: auto;
+  background-color: var(--lightblue);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.row-flex {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  width: 100%;
+  max-width: 320px;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+}
   
   
