@@ -226,6 +226,11 @@ ul.breadcrumb li a:hover {
   width: auto;
 }
 
+.star-rating {
+  height: 18px;
+  width: auto;
+}
+
 /* Links */
 a {
   text-decoration: none;
@@ -242,6 +247,12 @@ a {
 footer {
   background: var(--color-primary);
   color: white;
+}
+
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-main {
