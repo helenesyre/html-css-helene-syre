@@ -1,10 +1,15 @@
 /* Contact */
+
 .contact-methods {
     max-width: 650px;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
+
+.contact-methods h3 {
+  margin: 0px;
+}
   
   .contact-information {
     font-size: 1.1rem;
@@ -55,19 +60,6 @@
   
   form label {
     color: rgba(10, 54, 65, 0.5);
-  }
-  
-  form,
-  .contact-methods {
-    border-radius: 8px;
-    background: #FFF;
-    box-shadow: 0px 0px 8px 0px rgba(10, 54, 65, 0.10);
-    padding: 24px 32px 32px 32px;
-  }
-  
-  .contact-methods a {
-    color: var(--yellow);
-    text-decoration: underline;
   }
   
   .message {
