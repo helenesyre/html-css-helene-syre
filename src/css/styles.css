@@ -20,12 +20,12 @@ body {
 }
 
 .container-flex img{
-  object-fit: cover;
   object-position: 50% 20%;
 }
 
 img {
   width: 100%;
+  object-fit: cover;
 }
 
 h1 {
@@ -79,10 +79,27 @@ nav {
 }
 
 nav a {
+  --link-color: var(--green);
   display: block;
   color: var(--color-primary);
   font-size: 1rem;
   white-space: nowrap;
+}
+
+body .home nav a {
+  --link-color: var(--white);
+}
+
+nav a:hover {
+  color: var(--yellow);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+nav a.active {
+  --link-color: var(--yellow);
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 /* Breadcrumb */
@@ -226,21 +243,16 @@ ul.breadcrumb li a:hover {
   width: auto;
 }
 
-.star-rating {
-  height: 18px;
-  width: auto;
-}
-
 /* Links */
 a {
   text-decoration: none;
 }
 
-.active {
+/* .active {
   color: var(--yellow) !important;
   text-decoration: underline;
   text-underline-offset: 5px;
-}
+} */
 
 
 /* Footer */
