@@ -12,43 +12,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Adobe fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/agy5uqj.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/product.css" />
+    <link rel="stylesheet" href="src/css/media.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html">Logo</a>
-        <ul>
-          <li><a href="women.html">Women</a></li>
-          <li><a href="men.html">Men</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="outlet.html" class="active">Outlet</a></li>
-        </ul>
-        <ul>
-          <li><a href="search.html">Search</a></li>
-          <li><a href="cart.html">Cart</a></li>
-          <li><a href="login.html">Login</a></li>
-        </ul>
+    <header class="secondary-container">
+      <input type="checkbox" id="menu-checkbox" />
+      <label for="menu-checkbox" class="hamburger-icon" id="menu-toggle">☰</label>
+      <nav class="secondary-nav static-header">
+        <a href="index.html"><img src = "assets/images/raynidays-logo.svg" alt="Rainy Days logo" class="logo-green"/></a>
+        <div class="nav-links">
+        <a href="women.html">Women</a>
+        <a href="men.html">Men</a>
+        <a href="about.html">About us</a>
+        <a href="contact.html">Contact</a>
+        <a href="outlet.html" class="active">Outlet</a>
+        </div>
+        <div class="nav-icons">
+          <a href="search.html"><img src="assets/icons/search.svg" alt="Search icon" class="icon-green"></a>
+          <a href="cart.html"><img src="assets/icons/cart.svg" alt="Cart icon" class="icon-green"></a>
+          <a href="login.html"><img src="assets/icons/login.svg" alt="Login icon" class="icon-green"></a>
+        </div>
       </nav>
     </header>
-    <main>
-   
+    <main class="container">
+      <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li>Outlet</li>
+      </ul>
+      <h1 class="title-center">Coming Soon</h1>
     </main>
-    <footer class="container">
+    <footer class="container sticky-footer">
       <section class="footer-main">
-        <div class="footer-content">
+        <div class="#">
           <a href="index.html"><img src = "assets/images/raynidays-logo.svg" alt="Rainy Days logo" class="logo footer"/></a>
         </div>
         <div class="footer-content">
-          <h3>Products</h3>
+          <div>
+          <h4>Products</h4>
           <ul>
-            <li><a href="women-html">Women</a></li>
+            <li><a href="women.html">Women</a></li>
             <li><a href="men.html">Men</a></li>
             <li><a href="outlet.html">Outlet</a></li>
           </ul>
         </div>
-        <div class="footer-content">
-          <h3>Need any help?</h3>
+        <div>
+          <h4>Need any help?</h4>
           <ul>
             <li><a href="#">Customer Service</a></li>
             <li><a href="#">Shipping information</a></li>
@@ -56,20 +67,21 @@
             <li><a href="#">FAQ</a></li>
           </ul>
         </div>
-        <div class="footer-content">
-          <h3>Company</h3>
+        <div>
+          <h4>Company</h4>
           <ul>
             <li><a href="about.html">About us</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
-        <div class="footer-content">
-          <h3>Follow us</h3>
+        <div>
+          <h4>Follow us</h4>
           <ul>
             <li><a href="#">Instagram</a></li>
-            <li><a href="#">Facebook/a></li>
+            <li><a href="#">Facebook</a></li>
             <li><a href="#">LinkedIn</a></li>
           </ul>
+        </div>
         </div>
       </section>
       <section class="footer-bottom">
