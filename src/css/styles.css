@@ -234,16 +234,17 @@ ul.breadcrumb li a:hover {
   gap: 20px;
 }
 
-.icon-nav {
-  filter: invert(16%) sepia(70%) saturate(521%) hue-rotate(145deg) brightness(93%) contrast(97%);
+.icon {
   height: 24px;
   width: auto;
 }
 
+.icon-nav {
+  filter: invert(16%) sepia(70%) saturate(521%) hue-rotate(145deg) brightness(93%) contrast(97%);
+}
+
 .icon-green {
   filter: invert(16%) sepia(70%) saturate(521%) hue-rotate(145deg) brightness(93%) contrast(97%);
-  height: 24px;
-  width: auto;
 }
 
 /* Box stiling */
