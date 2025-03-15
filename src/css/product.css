@@ -87,6 +87,16 @@
   max-width: 540px;
 }
 
+.label {
+  
+  background-color: var(--teal);
+  color: var(--white);
+  font-size: 14px;
+  padding: 8px 18px;
+  border-radius: 8px;
+  width: fit-content;
+}
+
 .product-specific-info {
   display: flex;
   flex-direction: column;
@@ -214,6 +224,8 @@
 .size-guides {
   display: flex;
   justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 40px;
 }
 
 .delivery-over {
