@@ -103,12 +103,22 @@
   flex: 1;
 }
 
+.product-specific-info h1 {
+  margin-bottom: 24px;
+}
+
 .product-specific .reviews {
   margin-top: 24px;
 }
 
 .color-choice {
   padding: 20px 0px;
+}
+
+.color-choice p,
+.size-choice p {
+  color: var(--gray-3);
+  margin: 0px 0px 16px 0px;
 }
 
 .color-options {
