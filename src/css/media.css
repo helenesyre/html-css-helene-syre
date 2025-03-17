@@ -138,10 +138,10 @@
       max-width: 650px;
     }
   
-    /* Products */
-    .hero-image {
-      max-height: 360px;
-    }
+  /* Products */
+  .hero-image {
+    max-height: 360px;
+  }
 
   .product-info {
     grid-template-columns: 1fr auto;
@@ -288,6 +288,27 @@
   .price {
     font-size: 1.5rem;
   }
+
+    /* Product filters */
+    .filters-flex {
+      flex-direction: row;
+    }
+
+    .filters {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      flex: 1;
+    }
+  
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+  
+    .flex-sort {
+      flex: 0;
+      order: 1;
+    }
 
   /* Footer */
   .footer-content {
