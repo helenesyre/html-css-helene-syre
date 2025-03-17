@@ -113,6 +113,15 @@
     text-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 50px;
+    margin-left: calc(var(--padding-x) *-1);
+    margin-right: calc(var(--padding-x) *-1);
+  }
+
+  .product-card .products:first-child {
+    margin-left: var(--padding-x);
+  }
+  .product-card .products:last-child {
+    margin-right: var(--padding-x);
   }
 
   .product-card::-webkit-scrollbar {
