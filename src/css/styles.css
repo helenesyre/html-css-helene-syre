@@ -290,3 +290,33 @@ hr {
 .copyright {
   padding-bottom: 30px;
 }
+
+.section-full-width {
+  padding: 0 var(--mobile-padding-x);
+  margin: 0 calc(var(--mobile-padding-x) *-1);
+}
+.no-r-margin {
+  margin-right: calc(var(--mobile-padding-x) *-1);
+}
+
+.center-content-y {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center-content-x {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gap-1 {
+  gap: 10px;
+}
+.gap-2 {
+  gap: 20px;
+}
+.gap-3 {
+  gap: 40px;
+}
