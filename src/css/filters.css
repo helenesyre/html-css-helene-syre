@@ -1,7 +1,16 @@
 .filters {
     display: flex;
+    flex-direction: row;
     gap: 10px;
-    margin: 50px 9px;
+    flex-wrap: wrap;
+}
+
+.filters-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+    margin: 50px 0px;
 }
 
 .dropdown {
@@ -18,7 +27,7 @@
     justify-content: space-between;
     gap: 32px;
     align-items: center;
-    min-width: 120px;
+    width: fit-content;
     height: 48px;
     text-align: left;
     margin-bottom: 12px;
@@ -31,8 +40,8 @@
     background-color: #FFF;
     box-shadow: 0px 0px 8px 0px rgba(10, 54, 65, 0.10);
     border-radius: 8px;
-    padding: 8px 32px 8px 16px;
-    min-width: 180px;
+    padding: 8px 16px;
+    min-width: 190px;
     top: 100%;
     left: 0;
     z-index: 10;
@@ -44,7 +53,7 @@
 .dropdown-content label {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 20px;
     cursor: pointer;
     margin-bottom: 5px;
 }
@@ -54,6 +63,9 @@
     flex-direction: row;
     align-items: center;
     gap: 8px;
+    margin-left: -16px;
+    margin-right: -16px;
+    padding: 0 16px;
 }
 
 
@@ -108,13 +120,39 @@
 }
 
 /* Sort by */
-.sort-dropdown {
-    margin-left: auto;
-}
-
 .dropdown input[type="radio"] {
     display: none;
 }
+
+.flex-sort {
+    display: inline-flex;
+    flex: 1;
+    align-items: center;
+    gap: 24px;
+    margin-left: 0;
+    order: -1;
+    margin-bottom: auto;
+    height: fit-content;
+}
+
+.flex-sort p{
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 13px;
+    text-wrap: nowrap;
+}
+
+.sort-dropdown .dropdown-btn{
+    min-width: 200px;
+    border: 1.5px solid var(--gray-2);
+    background: #FFF;
+}
+
+.sort-dropdown .dropdown-content {
+    right: 0; /* Aligns the dropdown to the right edge */
+    left: auto; /* Ensures the left side is not affecting positioning */
+}
+
 
 /* Arrow */
 .arrow-small {
