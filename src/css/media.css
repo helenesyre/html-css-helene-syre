@@ -164,129 +164,146 @@
     margin: 0px 0px 8px 0px;
   }
   
-    .price {
-      font-size: 1.25rem;
-      margin: 0px;
-    }
-   
-    /* Footer */
-    .footer-main {
-      flex-direction: row;
-      min-height: 200px;
-    }
-    
-    .footer-content {
-      flex-direction: row;
-      gap: 60px;
-    }
-
-    footer .logo {
-      height: 70px;
-    }
+  .price {
+    font-size: 1.25rem;
+    margin: 0px;
   }
   
-  /* Desktop */
-  @media (min-width: 1200px) {
-    .static-header {
-      padding: 0 var(--padding-x);
-    }
-  
-    /* Hero section */
-  
-    .hero {
-      padding: 30px var(--padding-x);
-      margin: 0 calc(var(--padding-x) *-1);
-    }
-
-    .hero-text {
-      max-width: 45%;
-    }
-  
-    h1 {
-      font-size: 3.5rem;
-    }
-  
-    h2 {
-      font-size: 3rem;
-      font-weight: 500;
-    }
-    
-    h3 {
-      font-size: 1.5rem;
-      font-weight: 600;
-    }
-  
-    .container {
-      padding: 0 var(--padding-x);
-    }
-    
-    nav {
-      padding: 0 var(--padding-x);
-    }
-  
-    /* Homepage */
-    .container-flex {
-      margin: 120px 0;
-    }
-    .item-text {
-      font-size: 3.5rem;
-    }
-
-    .featured-list {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-  
-    /* Contact */
-  
-    .contact-methods {
-      max-width: 450px;
-      flex-direction: column;
-    }
-    
-   .contact-form {
-      max-width: 646px;
-    }
-  
-    .message {
-      /* height: 54.5px; */
-      height: 80px;
-    }
-    
-    .flex-test {
-      display:flex;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-    
-    .flex-row {
-      flex-direction: row;
-      gap: 20px;
-    }
-  
-    /* Products */
-    .hero-image {
-      max-height: 480px;
-    }
-  
-    .product-list {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-  
-    .products img {
-      aspect-ratio: 1/1;
-    }
-  
-    .price {
-      font-size: 1.5rem;
-    }
-
-    /* Footer */
-    .footer-content {
-      gap: 100px;
-    }
-
-    hr {
-      margin: 1em auto;
-    }
-  
+  /* Footer */
+  .footer-main {
+    flex-direction: row;
+    min-height: 200px;
   }
+  
+  .footer-content {
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  footer .logo {
+    height: 70px;
+  }
+
+
+  .section-full-width {
+    padding: 0 var(--ipad-padding-x);
+    margin: 0 calc(var(--ipad-padding-x) *-1);
+  }
+
+  .no-r-margin {
+    margin-right: calc(var(--ipad-padding-x) *-1);
+  }
+}
+/* Desktop */
+@media (min-width: 1200px) {
+  .static-header {
+    padding: 0 var(--padding-x);
+  }
+
+  /* Hero section */
+
+  .hero {
+    padding: 30px var(--padding-x);
+    margin: 0 calc(var(--padding-x) *-1);
+  }
+
+  .hero-text {
+    max-width: 45%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .container {
+    padding: 0 var(--padding-x);
+  }
+  
+  nav {
+    padding: 0 var(--padding-x);
+  }
+
+  /* Homepage */
+  .container-flex {
+    margin: 120px 0;
+  }
+  .item-text {
+    font-size: 3.5rem;
+  }
+
+  .featured-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /* Contact */
+
+  .contact-methods {
+    max-width: 450px;
+    flex-direction: column;
+  }
+  
+  .contact-form {
+    max-width: 646px;
+  }
+
+  .message {
+    /* height: 54.5px; */
+    height: 80px;
+  }
+  
+  .flex-test {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .flex-row {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  /* Products */
+  .hero-image {
+    max-height: 480px;
+  }
+
+  .product-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .products img {
+    aspect-ratio: 1/1;
+  }
+
+  .price {
+    font-size: 1.5rem;
+  }
+
+  /* Footer */
+  .footer-content {
+    gap: 100px;
+  }
+
+  hr {
+    margin: 1em auto;
+  }
+
+  .section-full-width {
+    padding: 0 var(--padding-x);
+    margin: 0 calc(var(--padding-x) *-1);
+  }
+
+  .no-r-margin {
+    margin-right: calc(var(--padding-x) *-1);
+  }
+}
