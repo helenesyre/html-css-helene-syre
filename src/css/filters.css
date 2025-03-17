@@ -1,0 +1,145 @@
+.filters {
+    display: flex;
+    gap: 10px;
+    margin: 50px 9px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    display: flex;
+    border: 1.5px solid var(--green);
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+    min-width: 120px;
+    height: 48px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    box-shadow: 0px 0px 8px 0px rgba(10, 54, 65, 0.10);
+    border-radius: 8px;
+    padding: 8px 32px 8px 16px;
+    min-width: 180px;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    max-height: 250px;
+    overflow: scroll;
+}
+
+/* Checkbox styling */
+.dropdown-content label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.flex-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+
+/* Color Filter */
+.color-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.color-option .color-circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid var(--gray-2);
+    display: inline-block;
+}
+
+.color-option[data-color="white"] .color-circle { background: white; }
+.color-option[data-color="black"] .color-circle { background: black; }
+.color-option[data-color="cream"] .color-circle { background: #EDE1CD; }
+.color-option[data-color="gray"] .color-circle { background: #D9D9D9; }
+.color-option[data-color="brown"] .color-circle { background: #472C1E; }
+.color-option[data-color="purple"] .color-circle { background: #8F38B3; }
+.color-option[data-color="marine"] .color-circle { background: #094775; }
+.color-option[data-color="blue"] .color-circle { background: #067DDA; }
+.color-option[data-color="turquoise"] .color-circle { background: #00AEBD; }
+.color-option[data-color="green"] .color-circle { background: #1C9B07; }
+.color-option[data-color="sage"] .color-circle { background: #7C8E76; }
+.color-option[data-color="yellow"] .color-circle { background: #F5C400; }
+.color-option[data-color="mustard"] .color-circle { background: #C48909; }
+.color-option[data-color="orange"] .color-circle { background: #EB5107; }
+.color-option[data-color="pink"] .color-circle { background: #E79DCC; }
+.color-option[data-color="magenta"] .color-circle { background: #CE0356; }
+.color-option[data-color="red"] .color-circle { background: #E5000D; }
+
+/* Material Filter */
+.divider {
+    height: 1px;
+    background: var(--gray-2);
+    margin: 8px 0;
+}
+
+/* Price Filter */
+.price-range {
+    text-align: left;
+}
+
+.price-slider {
+    width: 100%;
+}
+
+/* Sort by */
+.sort-dropdown {
+    margin-left: auto;
+}
+
+.dropdown input[type="radio"] {
+    display: none;
+}
+
+/* Arrow */
+.arrow-small {
+    height: 10px;
+    width: auto;
+  }
+
+/* Hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.arrow-small {
+    transition: transform 0.3s ease-in-out;
+}
+
+.dropdown:hover .arrow-small {
+    transform: rotate(-180deg);
+}
+
+.dropdown.sort-dropdown .flex-input:hover { 
+    background-color: var(--gray-1); 
+
+} 
+
+.dropdown .flex-input {
+    transition: background-color 0.3s ease;
+}
