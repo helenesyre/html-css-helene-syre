@@ -185,8 +185,10 @@ nav a.active {
 }
 
 .nav-icons a {
-  position: relative; /* Needed for absolute positioning */
-  text-decoration: none; /* Remove default underline */
+  position: relative;
+  text-decoration: none;
+  width: 24px;
+  height: auto;
 }
 
 .nav-icons a:hover::after {
