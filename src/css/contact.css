@@ -52,7 +52,7 @@
     padding: 18px 16px;
     align-self: stretch;
     border-radius: 8px;
-    border: 1.5px solid #DEDEDE;
+    border: 1.5px solid var(--gray-2);
     background: #FFF;
     box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.15) inset;
     margin-bottom: 16px;
