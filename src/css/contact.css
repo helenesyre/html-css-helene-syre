@@ -1,5 +1,9 @@
-/* Contact */
+.hero-title {
+  font-size: 1.25rem;
+  margin-top: 20px;
+}
 
+/* Contact */
 .contact-methods {
     max-width: 650px;
     display: flex;
@@ -72,4 +76,48 @@ form label {
   margin-right: 8px;
   width: 24px;
   height: 24px;
+}
+
+/* About */
+.gap{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.flex-content-y{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  flex:0;
+}
+
+.flex-content-y-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 16px;
+  flex:0;
+}
+
+.flex-content-y div,
+.flex-content-y-reverse div {
+  flex: 1;
+}
+
+.flex-content-y img,
+.flex-content-y-reverse img {
+  height: 300px;
+  border-radius: 8px;
+}
+
+.ul-list-style {
+  list-style-type: disc;
+}
+
+::marker {
+  color: var(--yellow);
 }
