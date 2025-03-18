@@ -84,7 +84,7 @@
     overflow: hidden;
   }
 
-  /* image carousel */
+  /* image carousel */ 
   .image-box {
     margin: 0px;
     width: 275px;
@@ -113,15 +113,15 @@
     text-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 50px;
-    margin-left: calc(var(--padding-x) *-1);
-    margin-right: calc(var(--padding-x) *-1);
+    margin-left: calc(var(--mobile-padding-x) *-1);
+    margin-right: calc(var(--mobile-padding-x) *-1);
   }
 
   .product-card .products:first-child {
-    margin-left: var(--padding-x);
+    margin-left: var(--mobile-padding-x);
   }
   .product-card .products:last-child {
-    margin-right: var(--padding-x);
+    margin-right: var(--mobile-padding-x);
   }
 
   .product-card::-webkit-scrollbar {
@@ -132,6 +132,7 @@
   .about-cta {
     background-color: var(--lightblue-50);
     display: flex;
+    flex-direction: column;
     height: 80vh;
     gap: 90px;
   }
