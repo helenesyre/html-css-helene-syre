@@ -139,7 +139,6 @@ a {
 
 
 /* Search overlay */
-
 .search-field input.search{
   padding: 8px 12px;
   align-self: stretch;
@@ -154,8 +153,14 @@ a {
   width: 70%;
 }
 
+#mobile-search-field {
+  display: block;
+}
+
 .overlay {
-  display: flex;
+  display: none;
+  padding: 0 var(--mobile-paddig-x);
+  right: 0;
   flex-direction: row;
   position: absolute;
   visibility: hidden;
