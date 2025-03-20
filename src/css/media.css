@@ -42,6 +42,28 @@
     font-size: 1rem;
   }
 
+  /* Search overlay */
+  .overlay {
+    padding: 0 var(--ipad-padding-x);
+    display: flex;
+  }
+
+  #mobile-search-field {
+    display: none;
+  }
+
+  #search-nav {
+    display: block;
+  }
+  #mobile-nav {
+    display: none;
+  }
+
+.nav-icons {
+  display: flex;
+  gap: 16px;
+}
+
   /* Hero section */
   .hero {
     padding: 30px var(--ipad-padding-x);
@@ -67,20 +89,17 @@
   }
 
   .logo {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(193deg) brightness(106%) contrast(107%);
     height: 70px;
     margin-top: 0px;
   }
 
-  .logo-green{
-    filter: invert(16%) sepia(70%) saturate(521%) hue-rotate(145deg) brightness(93%) contrast(97%);
-    height: 70px;
-    margin-top: 0px;
+  .logo-secondary {
+    color: var(--white);
   }
 
-  /*.secondary-nav a {
-    color: var(--green);
-  }*/
+  .secondary-container {
+    height: 120px;
+  }
 
   .nav-icons {
     display: flex;
@@ -96,10 +115,6 @@
     width: 100%;
     max-width: 500px;
     margin: 0px;
-  }
-
-  .icon-nav {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(193deg) brightness(106%) contrast(107%);
   }
 
   /* Homepage */
@@ -137,6 +152,12 @@
   /* About us CTA */
   .about-cta {
     flex-direction: row;
+  }
+
+  .about-image {
+    height: 80vh;
+    width: 100%;
+    margin-right: calc(var(--ipad-padding-x) *-1);
   }
 
   /* Contact */
@@ -213,10 +234,6 @@
     padding: 0 var(--ipad-padding-x);
     margin: 0 calc(var(--ipad-padding-x) *-1);
   }
-
-  .no-r-margin {
-    margin-right: calc(var(--ipad-padding-x) *-1);
-  }
 }
 /* Desktop */
 @media (min-width: 1200px) {
@@ -253,6 +270,11 @@
   }
   
   nav {
+    padding: 0 var(--padding-x);
+  }
+
+  /* Search overlay */
+  .overlay {
     padding: 0 var(--padding-x);
   }
 
@@ -328,6 +350,9 @@
   .flex-content-y-reverse img {
     flex:1;
   }
+  .about-image {
+    margin-right: calc(var(--padding-x) *-1);
+  }
 
   /* Products */
   .hero-image {
@@ -381,7 +406,4 @@
     margin: 0 calc(var(--padding-x) *-1);
   }
 
-  .no-r-margin {
-    margin-right: calc(var(--padding-x) *-1);
-  }
 }
