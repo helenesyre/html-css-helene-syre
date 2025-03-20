@@ -14,9 +14,13 @@ body {
 
 .container,
 .secondary-container {
-  /* max-width: 1200px; */
   margin: 0 auto;
   padding: 0 var(--mobile-padding-x);
+}
+
+.secondary-container {
+  position: relative;
+  height: 90px;
 }
 
 .container-flex img{
@@ -26,6 +30,10 @@ body {
 img {
   width: 100%;
   object-fit: cover;
+}
+
+figure {
+  margin: 0;
 }
 
 h1 {
@@ -53,14 +61,47 @@ nav,
   display: none;
 }
 
+#mobile-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: relative;
+}
+
+#mobile-nav figure {
+  height: 60px;
+  width: 200px;
+  margin: 0;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  margin-left: -100px;
+}
+
+.icon-nav-mobile {
+  height: 25px;
+  width: 25px;
+  color: white;
+}
+
+.nav-icons-mobile{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
 #menu-checkbox:checked ~ nav {
   display: block;
 }
+#menu-checkbox:checked ~ #mobile-nav {
+  display: none;
+}
 
 .mobile-menu-item{
-  display: flex;
-  justify-content: end;
+  position: absolute;
   margin-top: 18px;
+  right: 0;
 }
 
 .icon-xmark {
@@ -77,6 +118,7 @@ header {
   font-size: 1.5rem;
   margin: 0px;
   width: 100%;
+  height: 90px;
 }
 
 .static-header {
@@ -125,14 +167,16 @@ nav a.active {
 }
 
 /* Logo */
-
-.logo,
-.logo-green{
-  filter: invert(16%) sepia(70%) saturate(521%) hue-rotate(145deg) brightness(93%) contrast(97%);
+.logo {
+  color: var(--green);
   height: 60px;
   width: auto;
-  margin-top: -20px;
+  margin-top: 5px;
   cursor: pointer;
+}
+
+.logo-secondary {
+  color: var(--green);
 }
 
 .logo-flex {
@@ -143,8 +187,7 @@ nav a.active {
 
 /* Icons */
 .nav-icons {
-  display: flex;
-  gap: 16px;
+  display: none;
 }
 
 .nav-links {
@@ -154,7 +197,12 @@ nav a.active {
   margin: 48px 0px 100px 0px;
 }
 
-.icon-xmark {
+.icon-xmark-sm {
+  height: 24px;
+  width: auto;
+}
+
+.icon-xmark-md {
   height: 40px;
   width: auto;
 }
@@ -170,17 +218,17 @@ nav a.active {
 }
 
 .icon-nav {
-  filter: invert(16%) sepia(70%) saturate(521%) hue-rotate(145deg) brightness(93%) contrast(97%);
+  color: var(--white);
 }
 
-.icon-green {
-  filter: invert(16%) sepia(70%) saturate(521%) hue-rotate(145deg) brightness(93%) contrast(97%);
+.icon-nav-secondary {
+  color: var(--green);
 }
 
 
 .icon-nav:hover,
-.icon-green:hover {
-  filter: invert(63%) sepia(66%) saturate(702%) hue-rotate(351deg) brightness(100%) contrast(98%);;
+.icon-nav-secondary:hover  {
+  color: var(--yellow);
   transition: color 0.3s;
 }
 
@@ -250,11 +298,11 @@ footer {
 }
 
 footer .logo {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(193deg) brightness(106%) contrast(107%);
   height: 60px;
   width: auto;
   transition: all 0.3s;
   margin-top: 40px;
+  color: var(--white);
 }
 
 footer ul {
@@ -297,7 +345,10 @@ hr {
   padding: 0 var(--mobile-padding-x);
   margin: 0 calc(var(--mobile-padding-x) *-1);
 }
-.no-r-margin {
+.about-image {
+  height: 30vh;
+  width: auto;
+  margin-left: calc(var(--mobile-padding-x) *-1);
   margin-right: calc(var(--mobile-padding-x) *-1);
 }
 
