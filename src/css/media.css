@@ -320,7 +320,7 @@
     height: 80px;
   }
   
-  .flex-test {
+  .flex-content-column{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
