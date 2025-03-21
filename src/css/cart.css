@@ -8,7 +8,10 @@
 }
 
 .left-colum {
+    display: flex;
     flex: 0;
+    flex-direction: column;
+    gap: 40px;
   }
 
 .right-column {
@@ -19,6 +22,54 @@
     width: 100%;
     max-width: 800px;
 }
+
+.right-column h3 {
+    margin: 0px 0px 16px 0px;
+}
+
+/* Cart navigation */
+.center-nav {
+    display: flex;
+    flex-direction: column;
+}
+.cart-process {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 220px;
+    min-width: 100%;
+    align-self: center;
+}
+
+.cta-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 38px;
+    padding: 8px 14px;
+    border-radius: 24px;
+    border: 1.5px solid var(--green);
+    color: var(--green);
+}
+
+.cta-circle-active {
+    display: inline-flex;
+    padding: 8px 14px;
+    border-radius: 24px;
+    border: 1.5px solid var(--teal);
+    background-color: var(--teal);
+    color: var(--white);
+}
+
+hr.cart {
+    flex-grow: 1;
+    height: 2px;
+    background-color: var(--green);
+    border: none;
+}
+
+
 
 /* Product card */
 .delete {
@@ -82,7 +133,7 @@
 }
 
 /* Increment */
-/* Inspired by: - https://www.youtube.com/watch?v=uliYkHK3pKg*/
+/* Inspired by: - https://www.youtube.com/watch?v=uliYkHK3pKg 21.march-25*/
 .increment {
     height: 35px;
     width: 98px;
@@ -158,6 +209,14 @@ a.add-coupon {
     justify-content: space-between;
 }
 
+.cart-total {
+    margin-top: 24px;
+}
+
+.cart-item span,
+.cart-total span {
+    margin: 0;
+}
 
 /* Buttons */
 .cta-container {
