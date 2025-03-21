@@ -87,6 +87,7 @@
 }
 
 /* Breadcrumb */
+/* Code from: https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
 ul.breadcrumb {
   padding:0px;
   margin: 0;
