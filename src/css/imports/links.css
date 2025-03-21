@@ -81,7 +81,7 @@
   background-color: var(--yellow-hover);
 }
 
-/* Button restriction*/
+/* Button restriction */
 .fit-content {
     width: fit-content;
 }
@@ -139,6 +139,7 @@ a {
 
 
 /* Search overlay */
+/* Code inspired from: https://eichefam.net/2011/12/21/popup-windows-without-javascript/ */
 .search-field input.search{
   padding: 8px 12px;
   align-self: stretch;
