@@ -17,6 +17,7 @@
   --yellow-hover: #FFBC4D;
   --teal-border-hover: #156579;
   --link-color: var(--green);
+  --delete: #960000;
 
   /* shades */
   --black: #101010;
@@ -99,4 +100,26 @@ h4 {
   font-family: "muli", Verdana, sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+
+.increment {
+  font-family: "Noto Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.price {
+  font-family: "Noto Sans", serif;
+  font-weight: 800;
+  color: var(--teal);
+  font-size: 1.25rem;
+  margin: 8px 0px 12px 0px;
+}
+
+.price-large {
+  font-family: "Noto Sans", serif;
+  font-weight: 800;
+  color: var(--teal);
+  font-size: 3rem;
+  margin: 32px 0px;
 }
