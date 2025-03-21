@@ -65,6 +65,11 @@ h4 {
   margin: 0;
 }
 
+h1.small {
+  font-family: "Noto Sans", serif;
+  font-weight: 500;
+}
+
 .cta-md,
 .cta-sm {
   font-family: "Noto Sans", serif;
@@ -107,6 +112,23 @@ h4 {
   font-weight: 600;
   font-style: normal;
 }
+
+/* Prices */
+
+.free-delivery,
+.cart-info {
+  font-family: "Noto Sans", serif;
+  font-weight: 500;
+  color: var(--green);
+  font-size: 1.25rem;
+  margin: 8px 0px 12px 0px;
+}
+
+.cart-info {
+  opacity: 0.5;
+}
+
+
 
 .price {
   font-family: "Noto Sans", serif;
