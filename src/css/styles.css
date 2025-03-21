@@ -295,7 +295,7 @@ a.no-hover:hover::after {
 /* Shipping information */
 .shipping-information {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 24px;
 }
 
@@ -309,11 +309,11 @@ a.no-hover:hover::after {
 
 .row-flex {
   display: flex;
-  align-items: center;
+  align-items: top;
   gap: 22px;
   width: 100%;
-  min-width: 320px;
-  max-height: 92px;
+  min-width: 100%;
+  max-height: auto;
 }
 
 .column-flex {
