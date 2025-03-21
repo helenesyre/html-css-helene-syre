@@ -49,22 +49,6 @@
   margin: 0px 0px 8px 0px;
 }
 
-.price {
-  font-family: "Noto Sans", serif;
-  font-weight: 800;
-  color: var(--teal);
-  font-size: 1.25rem;
-  margin: 8px 0px 12px 0px;
-}
-
-.price-large {
-  font-family: "Noto Sans", serif;
-  font-weight: 800;
-  color: var(--teal);
-  font-size: 3rem;
-  margin: 32px 0px;
-}
-
 .product-actions {
   display: flex;
   gap: 14px;
@@ -172,35 +156,6 @@
 .arrow {
   height: 12px;
   width: auto;
-}
-
-/* Shipping information */
-.shipping-information {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-}
-
-.information-icon {
-  height: 64px;
-  width: auto;
-  background-color: var(--lightblue);
-  padding: 12px;
-  border-radius: 8px;
-}
-
-.row-flex {
-  display: flex;
-  align-items: center;
-  gap: 22px;
-  width: 100%;
-  min-width: 320px;
-  max-height: 92px;
-}
-
-.column-flex {
-  display: flex;
-  flex-direction: column;
 }
 
 /* Size and color selectors */
