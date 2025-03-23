@@ -61,7 +61,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 60px;
-  align-items: center; /* Align image and text vertically */
+  margin-top: 40px;
 }
 
 .product-image {
