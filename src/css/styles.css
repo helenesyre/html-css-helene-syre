@@ -114,6 +114,7 @@ nav,
 }
 
 header {
+  align-content: center;
   background: var(--color-primary);
   color: white;
   font-size: 1.5rem;
@@ -130,6 +131,7 @@ nav {
   position: absolute;
   background: var(--color-secondary);
   left: 0px;
+  top: 0px;
   padding: 0 var(--mobile-padding-x);
   margin-top: 0px;
   margin-bottom: 0px;
@@ -172,7 +174,7 @@ nav a.active {
   color: var(--green);
   height: 60px;
   width: auto;
-  margin-top: 5px;
+  margin-top: 12px;
   cursor: pointer;
 }
 
@@ -422,4 +424,17 @@ hr.footer {
 }
 .gap-3 {
   gap: 40px;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.w-full {
+  width: 100%;
 }
