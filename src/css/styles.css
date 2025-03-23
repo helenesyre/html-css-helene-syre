@@ -51,8 +51,8 @@ h3 {
   font-weight: 600;
 }
 
-.no-margin{
-  margin: 0px;
+.no-margin {
+  margin: 0;
 }
 
 /* Navigation */
@@ -69,6 +69,10 @@ nav,
   justify-content: space-between;
   padding: 20px 0;
   position: relative;
+}
+
+#mobile-nav a {
+  color: white;
 }
 
 #mobile-nav figure {
@@ -397,6 +401,11 @@ hr.footer {
   padding: 0 var(--mobile-padding-x);
   margin: 0 calc(var(--mobile-padding-x) *-1);
 }
+
+.section-full-width-no-p {
+  margin: 0 calc(var(--mobile-padding-x) *-1);
+}
+
 .about-image {
   height: 30vh;
   width: auto;
