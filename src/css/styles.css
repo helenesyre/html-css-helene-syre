@@ -212,6 +212,7 @@ nav a.active {
 .icon-xmark-md {
   height: 40px;
   width: auto;
+  cursor: pointer;
 }
 
 .icon {

@@ -159,7 +159,7 @@ h1.small {
 .cta-circle,
 .cta-circle-active  {
   font-family: "Noto Sans", serif;
-  font-weight: 700;;
+  font-weight: 700;
   font-size: 1rem;
 }
 
@@ -167,4 +167,10 @@ h1.small {
   font-family: "muli", Verdana, sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+
+/* Image cta */
+.image-cta h2 {
+  font-family: "Noto Sans", serif;
+  font-weight: 600;
 }
