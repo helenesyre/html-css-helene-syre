@@ -443,6 +443,16 @@
     height: 80vh;
   }
 
+  .left-top {
+    top: 120px;
+    left: 120px;
+  }
+  
+  .right-bottom {
+    bottom: 120px;
+    right: 120px;
+  }
+
   /* Products - product filters */
   .filters-flex {
     flex-direction: row;
