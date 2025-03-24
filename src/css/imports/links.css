@@ -156,6 +156,12 @@ a {
 
 /* Search overlay */
 /* Code inspired from: https://eichefam.net/2011/12/21/popup-windows-without-javascript/ */
+.content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 10px;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
 
 .search {
   width: 70%;

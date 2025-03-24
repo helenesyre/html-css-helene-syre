@@ -287,6 +287,10 @@
     margin: 0 calc(var(--ipad-padding-x) *-1);
   }
 
+  .sticky-footer {
+    position: fixed;
+  }
+
   /* Products - product page */
   .gray-bg {
     padding-top: 60px;

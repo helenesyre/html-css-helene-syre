@@ -35,6 +35,10 @@ body {
   width: 100%;
 }
 
+.container-full-height {
+  height: 40vh;
+}
+
 .container-flex img{
   object-position: 50% 20%;
 }
@@ -355,7 +359,7 @@ footer {
 }
 
 .sticky-footer {
-  position: fixed;
+  position: static;
   bottom: 0;
   width: 100%;
 }
