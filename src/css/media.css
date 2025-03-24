@@ -488,7 +488,7 @@
     gap: 100px;
   }
 
-  hr {
+  hr.footer {
     margin: 1em auto;
   }
 
