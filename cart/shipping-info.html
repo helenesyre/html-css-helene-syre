@@ -177,6 +177,24 @@
       </div>
     </header>
     <main class="container">
+      <section class="stepper">
+        <div class="step not-active">
+          <a href="cart.html" class="circle">1</a>
+          <p>Cart</p>
+        </div>
+        <div class="step active">
+          <a href="shipping-info.html" class="circle">2</a>
+          <p><span>Information</span>& Shipping</p>
+        </div>
+        <div class="step not-active">
+          <a href="payment.html" class="circle">3</a>
+          <p>Payment</p>
+        </div>
+        <div class="step not-active">
+          <a href="#" class="circle">4</a>
+          <p>Complete</p>
+        </div>
+      </section>
         <!--Code from: https://www.w3schools.com/howto/howto_css_breadcrumbs.asp ADD TO ALL PAGES-->
         <div class="margin-top">
             <ul class="breadcrumb">
@@ -254,10 +272,11 @@
                     </div>
                 </div>
             </section>
-
-            <section class="right-column">
+            <!--Information gattered from: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form-->
+            <section class="right-column center-element">
+              <form class="center-form" action="payment.html">
                 <div class="box-styling">
-                    <form method="POST" class="customer-information-form">
+                    <div class="customer-information-form form-margin">
                         <h3>Customer information</h3>
                         <div class="flex-row">
                           <div class="flex-col">
@@ -273,13 +292,13 @@
                         <label for="email">Email</label>
                         <input type="email" id="email" name="Email" title="Enter your email" placeholder="johndoe@gmail.com" required/>
               
-                        <label for="phone-number">Phone Number</label>
+                        <label for="phone-number">Phone number</label>
                         <input type="tel" id="phone-number" name="phone-number" title="Enter your phone number" placeholder="(XXX) XXX-XXXX"/>
-                    </form>
-                    <form method="POST" class="customer-information-form">
+                    </div>
+                    <div class="customer-information-form form-margin">
                         <h3>Shipping address</h3>
                         <label for="address">Address</label>
-                        <input id="address" name="address" title="Enter your address" placeholder="Flotmyrgata 125C"/>
+                        <input type="text" id="address" name="address" title="Enter your address" placeholder="Flotmyrgata 125C"/>
 
                         <div class="flex-row">
                           <div class="flex-col">
@@ -298,7 +317,7 @@
                             </div>
                             <div class="flex-1"></div>
                         </div> 
-                    </form>
+                    </div>
                     <div class="radio-btn-flex">
                         <h3>Shipping method</h3>
                         <label class="radio-label">
@@ -318,13 +337,12 @@
                             </span>
                         </label>
                     </div>
-                    
-                    
                 </div>
 
-                <div class="cta-container">
-                    <a href="shipping-info.html" class="cta-l cta-green">Continue to payment</a>
-                </div>     
+                <div class="cta-container center-form mt-cart-button">
+                    <input type="submit" class="cta-l cta-green" value="Continue to payment"/>
+                </div>
+              </form>
             </section>
         </section>
     </main>
