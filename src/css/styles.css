@@ -157,7 +157,7 @@ nav {
   transition: ease all .5s;
   width: 100%;
   height: 100vh;
-  z-index: 2;
+  z-index: 3;
 }
 
 nav a {
@@ -341,11 +341,10 @@ a.no-hover:hover::after {
 
 .row-flex {
   display: flex;
-  align-items: top;
+  align-items: center;
   gap: 22px;
   width: 100%;
   min-width: 100%;
-  max-height: auto;
 }
 
 .column-flex {
