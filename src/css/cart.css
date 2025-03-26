@@ -38,6 +38,59 @@
     margin: 0px 0px 16px 0px;
 }
 
+.center-column h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.hero-title {
+    color: var(--teal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-title h1 {
+    font-weight: 600;
+}
+
+.hero-title svg {
+    height: auto;
+    width: 200px;
+}
+
+.order-confirmed {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.order-confirmed p {
+    margin: 0px 0px 32px 0px;
+    text-align: center;
+}
+
+.order-cfm {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-cfm-title,
+.order-cfm-subtitle {
+    margin: 0;
+}
+
+.order-column {
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+
 .cart-form {
     max-width: 700px;
 }
@@ -314,5 +367,16 @@ a.add-coupon {
 
 .mt-cart-button {
     margin-top: 24px;
+}
+
+hr.cart-line {
+    height: 1.5px;
+    background-color: var(--green-20);
+    border: none;
+    margin: 8px 0px 24px 0px;
+}
+
+hr.margin-l {
+    margin: 40px 0px 40px 0px;
 }
 
