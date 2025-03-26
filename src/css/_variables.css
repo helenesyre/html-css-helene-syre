@@ -47,7 +47,7 @@
   /* icons */
   --color-icon-primary: var(--color-primary);
   --color-icon-secondary: var(--white);
-
+  
 }
 
 /* fonts */
@@ -173,13 +173,14 @@ h1.small {
 
 /* Cart navigation */
 .cta-circle,
-.cta-circle-active  {
+.cta-circle-active,
+.circle {
   font-family: "Noto Sans", serif;
   font-weight: 700;
   font-size: 1rem;
 }
 
-.cart-process p {
+.stepper p {
   font-family: "muli", Verdana, sans-serif;
   font-weight: 500;
   font-style: normal;
