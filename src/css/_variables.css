@@ -70,6 +70,12 @@ h1.small {
   font-weight: 500;
 }
 
+.hero-title {
+  font-family: "Noto Sans", serif;
+  font-size: 1.25rem;
+  margin-top: 8px;
+}
+
 .flex-lines p {
   font-family: "muli", Verdana, sans-serif;
   font-weight: 600;
@@ -160,12 +166,14 @@ h1.small {
 }
 
 /* Radio Buttons */
-.radio-title {
+.radio-title,
+.order-cfm-title {
   font-weight: bold;
   font-size: 1.125rem;
 }
 
-.radio-subtitle {
+.radio-subtitle,
+.order-cfm-subtitle  {
   font-weight: 500;
   font-size: 1.125rem;
   opacity: 0.5;
