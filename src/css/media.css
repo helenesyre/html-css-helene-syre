@@ -224,7 +224,6 @@
   /* Cart */
   .right-column {
     width: 100%;
-    max-width: 1400px;
   }
 
   /* Product card */
@@ -256,11 +255,6 @@
     align-items: center;
     min-width: 320px;
     max-height: 92px;
-  }
-
-  /* Payment methods */
-  .payment-methods {
-    flex-wrap: nowrap;
   }
   
   /* Footer */
@@ -526,7 +520,6 @@
   .right-column {
     flex: 1;
     width: 30%;
-    max-width: 800px;
     gap: 24px;
   }
 
