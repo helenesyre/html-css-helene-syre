@@ -22,6 +22,7 @@ body {
 .secondary-container {
   position: relative;
   height: 90px;
+  margin-bottom: 18px;
 }
 
 .container-center {
@@ -68,6 +69,15 @@ h3 {
 
 .no-margin {
   margin: 0;
+}
+
+.flex-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.margin-buttons {
+  margin: 16px 0px;
 }
 
 /* Navigation */
