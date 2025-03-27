@@ -325,7 +325,8 @@
   }
   
   h3,
-  .product-card-y h2 {
+  .product-card-y h2,
+  .center-column h2 {
     font-size: 1.5rem;
     font-weight: 600;
   }

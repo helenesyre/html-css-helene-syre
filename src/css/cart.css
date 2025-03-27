@@ -38,7 +38,7 @@
     margin: 0px 0px 16px 0px;
 }
 
-.center-column h3 {
+.center-column h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,11 +189,11 @@
     gap: 16px;
 }
 
-.product-card-y h2{
+.product-card-y h2,
+.center-column h2 {
     margin: 0px 0px 8px 0px;
     font-size: 1.25rem;
     font-weight: 600;
-
 }
 
 .product-details {
