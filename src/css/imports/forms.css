@@ -167,3 +167,9 @@ hr.login {
     justify-content: space-between;
     margin-bottom: 24px;
 }
+
+.login-alternatives h2 {
+    text-align: center;
+    color: var(--teal);
+    margin-bottom: 16px;
+}
