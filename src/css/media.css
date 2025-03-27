@@ -14,6 +14,14 @@
     align-content: start;
   }
 
+  #menu-xmark {
+    display: none;
+  }
+
+  #menu-close:checked ~ #mobile-nav {
+    display: none;
+  }
+
   .static-header {
     position: static;
     padding: 0 var(--ipad-padding-x);

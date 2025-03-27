@@ -87,8 +87,9 @@ h3.no-margin {
 
 /* Navigation */
 nav,
-#menu-checkbox,
-#xmark {
+#menu-open,
+#menu-close,
+#menu-xmark {
   display: none;
 }
 
@@ -131,11 +132,12 @@ nav,
   flex-direction: row;
   gap: 16px;
 }
-#menu-checkbox:checked ~ nav {
+
+#menu-open:checked ~ nav, #menu-xmark {
   display: block;
 }
-#menu-checkbox:checked ~ #mobile-nav {
-  display: none;
+#menu-close:checked ~ #mobile-nav {
+  display: flex;
 }
 
 .mobile-menu-item{
@@ -293,6 +295,16 @@ a.no-hover:hover::after {
   content: none;
 }
 
+.icon-nav-mobile:hover {
+  color: var(--yellow);
+  transition: color 0.3s;
+  border-bottom: 1px solid;
+}
+
+.icon-nav-mobile.active {
+  color: var(--yellow);
+  border-bottom: 1px solid;
+}
 
 .icon-wrapper {
   width: 24px; 
