@@ -51,14 +51,8 @@ textarea {
 }
   
 form label {
-    color: rgba(10, 54, 65, 0.5);
+    color: rgba(10, 54, 65, 0.7);
 }
-
-.yellow-link{
-    color: var(--yellow);
-    text-decoration: underline;
-    cursor: pointer;
-  }
   
 .message {
     max-width: 100%;
