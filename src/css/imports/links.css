@@ -195,6 +195,7 @@ a {
   height: 200px;
   box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.15);
   position: relative;
+  z-index: 4;
   h3 {
     margin-top: 0;
     margin-bottom: 8px;
