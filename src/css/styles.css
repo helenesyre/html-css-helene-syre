@@ -114,6 +114,11 @@ nav,
   margin-left: -100px;
 }
 
+.hamburger-icon {
+  display: block;
+  cursor: pointer;
+}
+
 .icon-nav-mobile {
   height: 25px;
   width: 25px;
