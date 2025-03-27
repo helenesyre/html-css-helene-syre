@@ -43,10 +43,17 @@
     padding: 8px 16px;
     min-width: 190px;
     top: 100%;
-    left: 0;
     z-index: 10;
     max-height: 250px;
     overflow: scroll;
+}
+
+.content-left {
+    left: 0;
+}
+
+.content-right {
+    right: 0;
 }
 
 /* Checkbox styling */
