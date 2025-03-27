@@ -34,7 +34,7 @@
     max-width: 700px;
 }
 
-.right-column h3 {
+.form-margin h3 {
     margin: 0px 0px 16px 0px;
 }
 
@@ -282,7 +282,7 @@
     justify-content: space-between;
 }
 
-a.add-coupon {
+a.coupon-flex {
     text-transform: uppercase;
     text-decoration: none;
 }
