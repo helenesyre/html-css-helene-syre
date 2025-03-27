@@ -110,17 +110,18 @@ ul.breadcrumb {
 }
 
 ul.breadcrumb li {
+  color: var(--teal);
   display: inline;
 }
 
 ul.breadcrumb li+li:before {
-  color: var(--gray-3);
+  color: var(--gray-4);
   content: "/\00a0";
   padding: 6px;
 }
 
 ul.breadcrumb li a {
-  color: var(--gray-3);
+  color: var(--gray-4);
   text-decoration: none;
 }
 

@@ -332,7 +332,7 @@ a.no-hover:hover::after {
 }
 
 .box-styling a.gray-link {
-  color: var(--gray-3);
+  color: var(--gray-4);
 }
 
 .box-styling a.no-link{
