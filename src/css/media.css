@@ -6,7 +6,6 @@
 
   .secondary-container {
     padding: 0;
-    margin-bottom: 18px;
   }
 
   /* Navigation */
@@ -213,6 +212,15 @@
   .price {
     font-size: 1.25rem;
     margin: 0px;
+  }
+
+  .product-overview {
+    gap: 56px;
+  }
+
+  /* Products - product filters */
+  .content-right {
+    left: 0;
   }
 
   /* About */
