@@ -363,7 +363,7 @@ a.no-hover:hover::after {
 }
 
 /* Footer */
-footer {
+footer { 
   background: var(--color-primary);
   color: white;
 }
@@ -411,7 +411,8 @@ footer p {
   margin: 0;
 }
 
-footer h4 {
+footer h3 {
+  font-size: 1rem;
   margin: 0;
 }
 
