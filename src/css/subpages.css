@@ -58,5 +58,5 @@
 }
 
 ::marker {
-  color: var(--yellow);
+  color: var(--yellow, #FCA311);
 }

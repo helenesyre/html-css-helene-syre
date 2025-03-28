@@ -7,9 +7,9 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  padding: 30px var(--mobile-padding-x);
-  margin: 0 calc(var(--mobile-padding-x) *-1);
-  color: var(--white);
+  padding: 30px var(--mobile-padding-x, 40px);
+  margin: 0 calc(var(--mobile-padding-x, 40px) *-1);
+  color: var(--white, #fff);
 }
   
 .hero-text {
@@ -22,11 +22,11 @@
 }
 
 .higlighted-text {
-  color: var(--yellow);
+  color: var(--yellow, #FCA311);
 }
 
 .bold-text {
-  color: var(--teal);
+  color: var(--teal, #027372);
 }
 
 /* Homepage */
@@ -56,7 +56,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  color: var(--white);
+  color: var(--white, #fff);
   font-size: 2.5rem;
   font-weight: 600;
   height: 100%;
@@ -69,7 +69,7 @@
 }
 
 .item-text:hover {
-  color: var(--yellow);
+  color: var(--yellow, #FCA311);
   background-color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
 }
@@ -108,7 +108,7 @@
   color: white;
   font-size: 0.875rem;
   font-weight: 500;
-  background-color: var(--teal);
+  background-color: var(--teal, #027372);
   padding: 8px 18px;
 }
 
@@ -120,15 +120,15 @@
   text-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 50px;
-  margin-left: calc(var(--mobile-padding-x) *-1);
-  margin-right: calc(var(--mobile-padding-x) *-1);
+  margin-left: calc(var(--mobile-padding-x, 40px) *-1);
+  margin-right: calc(var(--mobile-padding-x, 40px) *-1);
 }
 
 .product-card .products:first-child {
-  margin-left: var(--mobile-padding-x);
+  margin-left: var(--mobile-padding-x, 40px);
 }
 .product-card .products:last-child {
-  margin-right: var(--mobile-padding-x);
+  margin-right: var(--mobile-padding-x, 40px);
 }
 
 .product-card::-webkit-scrollbar {
@@ -137,7 +137,7 @@
 
 /* About us CTA */
 .about-cta {
-  background-color: var(--lightblue-50);
+  background-color: var(--lightblue-50, rgba(196, 235, 255, 0.5));
   display: flex;
   flex-direction: column;
   gap: 90px;

@@ -20,7 +20,7 @@
 
 .dropdown-btn {
     display: flex;
-    border: 1.5px solid var(--green);
+    border: 1.5px solid var(--green, #0A3641);
     padding: 10px 16px;
     cursor: pointer;
     border-radius: 8px;
@@ -88,7 +88,7 @@
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    border: 1px solid var(--gray-2);
+    border: 1px solid var(--gray-2, #dedede);
     display: inline-block;
 }
 
@@ -113,7 +113,7 @@
 /* Material Filter */
 .divider {
     height: 1px;
-    background: var(--gray-2);
+    background: var(--gray-2, #dedede);
     margin: 8px 0;
 }
 
@@ -151,7 +151,7 @@
 
 .sort-dropdown .dropdown-btn{
     min-width: 200px;
-    border: 1.5px solid var(--gray-2);
+    border: 1.5px solid var(--gray-2, #dedede);
     background: #FFF;
 }
 
@@ -181,7 +181,7 @@
 }
 
 .dropdown.sort-dropdown .flex-input:hover { 
-    background-color: var(--gray-1); 
+    background-color: var(--gray-1, #f5f5f5); 
 
 } 
 

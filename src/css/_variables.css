@@ -4,13 +4,10 @@
 :root {
   --color-primary: #0A3641;
   --color-secondary: #F6FCFF;
-  --color-fallback: #0A3641;
 
   /* colors */
   --green: #0A3641;
-  --green-40: rgba(10, 54, 65, 0.4);
   --green-20: rgba(10, 54, 65, 0.2);
-  --forest-green: #014645;
   --teal: #027372;
   --teal-hover: #009392;
   --lightblue: #C4EBFF;
@@ -18,11 +15,10 @@
   --yellow: #FCA311;
   --yellow-hover: #FFBC4D;
   --teal-border-hover: #156579;
-  --link-color: var(--green);
+  --link-color: var(--green, #0A3641);
   --delete: #960000;
 
   /* shades */
-  --black: #101010;
   --gray-4: #595D62;
   --gray-3: #969696;
   --gray-2: #dedede;
@@ -34,21 +30,10 @@
   --color-error: #CC2E22;
   --color-warning: #F0BF4E;
 
-  /* typography */
-  --color-text: var(--color-primary);
-  --color-text-heading: var(--color-primary);
-  --color-link: var(--yellow);
-
   /* body */
-  --color-body: var(--white);
-
   --padding-x: 180px;
   --ipad-padding-x: 60px;
   --mobile-padding-x: 40px;
-  
-  /* icons */
-  --color-icon-primary: var(--color-primary);
-  --color-icon-secondary: var(--white);
   
 }
 
@@ -61,41 +46,41 @@ h1,
 h2,
 h3
 h4 {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
   font-weight: 600;
   font-style: normal;
   margin: 0;
 }
 
 h1.small {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
   font-weight: 500;
 }
 
 .hero-title {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
   font-size: 1.25rem;
   margin-top: 8px;
 }
 
 .flex-lines p {
-  font-family: "muli", Verdana, sans-serif;
+  font-family: "muli", Verdana, Tahoma, sans-serif;
   font-weight: 600;
   font-style: normal;
   margin: 0px 20px;
   font-size: 1.2rem;
-  color: var(--gray-4);
+  color: var(--gray-4, #595D62);
 }
 
 .cta-md,
 .cta-sm {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
   font-weight: 600;
   font-style: normal;
 }
 
 .cta-l {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
   font-weight: 500;
   font-style: normal;
 }
@@ -113,26 +98,26 @@ h1.small {
 }
 
 .box-styling a.no-link {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
 }
 
 .dropdown {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
   font-weight: 600;
   font-style: normal;
 }
 
 .dropdown-content {
-  font-family: "muli", Verdana, sans-serif;
+  font-family: "muli", Verdana, Tahoma, sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
 .increment {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
   font-weight: 600;
   font-style: normal;
 }
@@ -140,9 +125,8 @@ h1.small {
 /* Prices */
 .free-delivery,
 .cart-info {
-  font-family: "Noto Sans", serif;
-  font-weight: 500;
-  color: var(--green);
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
+  color: var(--green, #0A3641);
   font-size: 1.25rem;
   margin: 8px 0px 12px 0px;
 }
@@ -152,17 +136,17 @@ h1.small {
 }
 
 .price {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
   font-weight: 800;
-  color: var(--teal);
+  color: var(--teal, #027372);
   font-size: 1.25rem;
   margin: 8px 0px 12px 0px;
 }
 
 .price-large {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
   font-weight: 800;
-  color: var(--teal);
+  color: var(--teal, #027372);
   font-size: 3rem;
   margin: 32px 0px;
 }
@@ -185,19 +169,27 @@ h1.small {
 .cta-circle,
 .cta-circle-active,
 .circle {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
   font-weight: 700;
   font-size: 1rem;
 }
 
 .stepper p {
-  font-family: "muli", Verdana, sans-serif;
+  font-family: "muli", Verdana, Tahoma, sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
 /* Image cta */
 .image-cta h2 {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
   font-weight: 600;
+}
+
+/* Navigation */
+nav a {
+  font-family: "Noto Sans", Verdana, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 2.25rem;
+  font-style: normal;
 }

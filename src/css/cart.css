@@ -46,14 +46,14 @@
 }
 
 .hero-title {
-    color: var(--green);
+    color: var(--green, #0A3641);
     display: flex;
     flex-direction: column;
     align-items: left;
 }
 
 .hero-title-teal {
-    color: var(--teal);
+    color: var(--teal, #027372);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,14 +149,14 @@
   
   /* Active step styling */
   .step.not-active .circle {
-    background: var(--color-secondary);
-    border: 1.5px solid #0A3641;
-    color: var(--green);
+    background: var(--color-secondary, #F6FCFF);
+    border: 1.5px solid var(--green, #0A3641);
+    color: var(--green, #0A3641);
   }
 
   .step.active .circle {
-    background: var(--teal);
-    color: var(--white);
+    background: var(--teal, #027372);
+    color: var(--white, #fff);
   }
  /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text */
   .step p {
@@ -180,7 +180,7 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    color: var(--delete);
+    color: var(--delete, #960000);
 }
  
 .product-card-y {
@@ -246,8 +246,8 @@
     display: flex;
     justify-content: center;
     border-radius: 8px;
-    border: 1.5px solid var(--green);
-    background: var(--gray-1)
+    border: 1.5px solid var(--green, #0A3641);
+    background: var(--gray-1, #f5f5f5);
 }
 
 .increment span {
@@ -261,9 +261,9 @@
 }
 
 .increment span.num {
-    border-left: 2px solid var(--green);
-    border-right: 2px solid var(--green);
-    background: var(--white);
+    border-left: 2px solid var(--green, #0A3641);
+    border-right: 2px solid var(--green, #0A3641);
+    background: var(--white, #fff);
     padding: 0 10px;
 }
 
@@ -275,7 +275,7 @@
 .increment span.minus,
 .increment span.plus {
     cursor: pointer;
-    background: var(--gray-1);
+    background: var(--gray-1, #f5f5f5);
     padding: 17px 10px;
 }
 
@@ -391,7 +391,7 @@ a.coupon-flex {
 
 hr.cart-line {
     height: 1.5px;
-    background-color: var(--green-20);
+    background-color: var(--green-20, rgba(10, 54, 65, 0.2));
     border: none;
     margin: 8px 0px 24px 0px;
 }
