@@ -4,6 +4,7 @@
 :root {
   --color-primary: #0A3641;
   --color-secondary: #F6FCFF;
+  --color-fallback: #0A3641;
 
   /* colors */
   --green: #0A3641;
