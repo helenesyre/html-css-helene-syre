@@ -269,6 +269,10 @@
 
   .row-flex {
     align-items: center;
+  }
+
+  .fixed-size {
+    align-items: center;
     min-width: 320px;
     max-height: 92px;
   }

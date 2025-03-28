@@ -374,7 +374,8 @@ a.no-hover:hover::after {
   border-radius: 8px;
 }
 
-.row-flex {
+.row-flex,
+.fixed-size {
   display: flex;
   align-items: center;
   gap: 22px;
