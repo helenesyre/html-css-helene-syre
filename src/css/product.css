@@ -102,7 +102,7 @@
 
 .color-choice p,
 .size-choice p {
-  color: var(--gray-3);
+  color: var(--gray-4);
   margin: 0px 0px 16px 0px;
 }
 
@@ -150,7 +150,7 @@
 .reviews p,
 .review-star-rating p {
   margin: 0px;
-  color: var(--gray-3);
+  color: var(--gray-4);
   font-weight: 600;
 }
 
@@ -208,7 +208,8 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  color: var(--green-40);
+  color: var(--green);
+  opacity: 0.7;
   justify-content: center;
 }
 
