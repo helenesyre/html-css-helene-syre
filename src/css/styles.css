@@ -63,7 +63,8 @@ h2 {
 }
 
 h3,
-.login-alternatives h2 {
+.login-alternatives h2,
+.contact-methods h2 {
   font-size: 1.25rem;
   font-weight: 600;
 }
