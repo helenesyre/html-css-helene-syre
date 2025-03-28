@@ -1,12 +1,13 @@
 /* Hero section */
 .hero {
-  background: url("../../assets/images/home-header.jpg") no-repeat;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.6) 100%), url("../../assets/images/home-header.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
   padding: 30px var(--mobile-padding-x);
   margin: 0 calc(var(--mobile-padding-x) *-1);
   color: var(--white);
+  z-index: 1;
 }
 
 .hero::before {
@@ -16,8 +17,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7); /* Darker background for higher contrast */
-  z-index: 1;
+  background-color: rgba(0, 0, 0, 1); /* Darker background for higher contrast */
+  z-index: -1;
 }
 
 .hero > * {
@@ -32,7 +33,6 @@
     height: 100%;
     font-size: 1.25rem;
     max-width: 100%;
-    z-index: 3;
   }
 
   .higlighted-text {
