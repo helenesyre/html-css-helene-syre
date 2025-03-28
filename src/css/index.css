@@ -27,6 +27,10 @@
   color: var(--yellow);
 }
 
+.bold-text {
+  color: var(--teal);
+}
+
 /* Homepage */
 .container-flex {
   display: flex;
