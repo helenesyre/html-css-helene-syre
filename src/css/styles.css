@@ -104,7 +104,7 @@ nav,
 }
 
 #mobile-nav a {
-  color: white;
+  color: var(--white, #fff);
 }
 
 #mobile-nav figure {
@@ -125,7 +125,7 @@ nav,
 .icon-nav-mobile {
   height: 25px;
   width: 25px;
-  color: white;
+  color: var(--white, #fff);
 }
 
 .nav-icons-mobile{
@@ -186,7 +186,6 @@ nav {
 nav a {
   display: block;
   color: var(--link-color, #0A3641);
-  font-size: 1rem;
   white-space: nowrap;
 }
 
@@ -322,7 +321,7 @@ a.no-hover:hover::after {
 }
 
 .active-icon .icon-nav-secondary {
-  color: white;
+  color: var(--white, #fff);
 }
 
 /* Box stiling */
@@ -439,7 +438,7 @@ footer h3 {
 }
 
 footer a:hover {
-  color: white;
+  color: var(--white, #fff);
   text-decoration: underline;
   transition: color 0.3s;
 }

@@ -193,7 +193,7 @@
 
 .size-selector input:checked + label {
   background-color: var(--teal, #027372);
-  color: white;
+  color: var(--white, #fff);
   border-color: var(--teal, #027372);
 }
 
