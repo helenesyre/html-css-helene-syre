@@ -65,7 +65,7 @@
     margin-bottom: 5px;
 }
 
-.flex-dropdown {
+.flex-input {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -180,11 +180,11 @@
     transform: rotate(-180deg);
 }
 
-.dropdown.sort-dropdown .flex-dropdown:hover { 
+.dropdown.sort-dropdown .flex-input:hover { 
     background-color: var(--gray-1); 
 
 } 
 
-.dropdown .flex-dropdown {
+.dropdown .flex-input {
     transition: background-color 0.3s ease;
 }
