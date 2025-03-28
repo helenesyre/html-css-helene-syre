@@ -1,6 +1,6 @@
 /* Hero section */
 .hero {
-  background: 
+  background:
     linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.6) 100%), 
     url("../../assets/images/home-header.jpg") no-repeat,
     url("../../assets/images/backup-image.jpg") no-repeat,
@@ -11,6 +11,7 @@
   padding: 30px var(--mobile-padding-x);
   margin: 0 calc(var(--mobile-padding-x) *-1);
   color: var(--white);
+  background-color: rgba(10, 54, 65, 1);
 }
   
 .hero-text {
