@@ -1,3 +1,8 @@
+@media (max-width: 500px) {
+  .content-right {
+    left: 0;
+  }
+}
 /* iPad/tablet */
 @media (min-width: 840px) {
   .container  {

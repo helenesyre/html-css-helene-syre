@@ -164,6 +164,7 @@ hr.login {
 
 .flex-login-info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 24px;
 }
