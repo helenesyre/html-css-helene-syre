@@ -196,7 +196,7 @@ nav a {
 
 
 body.home nav a {
-  --link-color: var(--green);
+  --link-color: var(--teal);
 }
 
 nav a:hover {
@@ -261,7 +261,7 @@ nav a.active {
 }
 
 .icon-nav {
-  color: var(--white);
+  color: var(--teal);
 }
 
 .icon-nav-secondary {

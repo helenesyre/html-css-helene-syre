@@ -93,7 +93,7 @@
   }
 
   body.home nav a {
-    --link-color: var(--white);
+    --link-color: var(--teal);
   }
 
   .logo {
@@ -102,7 +102,7 @@
   }
 
   .logo-secondary {
-    color: var(--white);
+    color: var(--teal);
   }
 
   .secondary-container {
