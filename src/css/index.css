@@ -7,23 +7,6 @@
   padding: 30px var(--mobile-padding-x);
   margin: 0 calc(var(--mobile-padding-x) *-1);
   color: var(--white);
-  z-index: 2;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #000; /* Solid black background */
-  z-index: 1;
-}
-
-.hero > * {
-  position: relative;
-  z-index: 3;
 }
   
 .hero-text {
