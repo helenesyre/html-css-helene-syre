@@ -275,7 +275,6 @@
 
 .accordion label {
   font-size: 1.2em;
-  font-weight: bold;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
