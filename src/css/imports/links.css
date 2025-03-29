@@ -1,5 +1,3 @@
-
-
 /* Buttons */
 .cta-l{
   border-radius: 8px;
@@ -84,7 +82,7 @@
 
 /* Button restriction */
 .fit-content {
-    width: fit-content;
+  width: fit-content;
 }
 
 /* Log in with buttons */

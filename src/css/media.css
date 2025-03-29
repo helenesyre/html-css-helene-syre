@@ -72,10 +72,10 @@
     display: none;
   }
 
-.nav-icons {
-  display: flex;
-  gap: 16px;
-}
+  .nav-icons {
+    display: flex;
+    gap: 16px;
+  }
 
   /* Hero section */
   .hero {

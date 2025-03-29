@@ -41,9 +41,10 @@
     gap: 4px;
 }
 
-  
-#fname, #lname, #email, #phone-number, #address, #city-or-state, #country, #postal-code, #email-or-username, #password, #owner, #card-number, #expiration, #cvv,
-select,
+#fname, #lname, #email, #phone-number, 
+#address, #city-or-state, #country, #postal-code, 
+#email-or-username, #password, #owner, #card-number, 
+#expiration, #cvv, select,
 textarea {
     padding: 18px 16px;
     align-self: stretch;

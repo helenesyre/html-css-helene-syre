@@ -156,10 +156,9 @@
 }
 
 .sort-dropdown .dropdown-content {
-    right: 0; /* Aligns the dropdown to the right edge */
-    left: auto; /* Ensures the left side is not affecting positioning */
+    right: 0;
+    left: auto;
 }
-
 
 /* Arrow */
 .arrow-small {
