@@ -92,7 +92,12 @@ form label {
     display: none;
 }
 
-/* Code changed from: https://www.youtube.com/watch?v=5K7JefKDa4s 21.march-25*/
+/* Code changed from: 
+How to Create a Custom Radio Button - HTML & CSS Tutorial
+@publisher: dcode
+@date: 2023-03-25
+@link: https://www.youtube.com/watch?v=5K7JefKDa4s
+*/
 .radio-circle {
     width: 24px;
     height: 24px;

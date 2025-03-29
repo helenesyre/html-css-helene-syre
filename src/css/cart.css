@@ -104,6 +104,12 @@
 }
 
 /* Cart navigation/ stepper */
+/* Code inspiration from: 
+Building A Stepper Component
+@publisher: A. Shadeed
+@date: 2023-03-28
+@link: https://ishadeed.com/article/stepper-component-html-css/
+*/
 .stepper {
     display: flex;
     align-items: start;
@@ -120,8 +126,14 @@
     flex: 1;
   }
 
-  /* Connecting line between steps */
-  /* https://dockyard.com/blog/2017/12/20/first-child-last-child-nth-child-and-not-nth-child */
+/* Connecting line between steps */
+/* Code information from: 
+:first-child, :last-child, :nth-child, and :not(:nth-child)
+@publisher: C. Goodwin
+@date: 2023-03-28
+@link: https://dockyard.com/blog/2017/12/20/first-child-last-child-nth-child-and-not-nth-child
+*/
+
 .step:not(:first-child)::before {
     content: "";
     position: absolute;
@@ -158,7 +170,13 @@
     background: var(--teal, #027372);
     color: var(--white, #fff);
   }
- /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text */
+
+/* Code information from: 
+Wrapping and breaking text
+@publisher: MDN contributors
+@date: 2023-03-28
+@link: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text
+*/
   .step p {
     display: inline-block;
     overflow-wrap: break-word;
@@ -239,7 +257,12 @@
 }
 
 /* Increment */
-/* Inspired by: - https://www.youtube.com/watch?v=uliYkHK3pKg 21.march-25*/
+/* Code inspired by: 
+Button with Increment and Decrement Number | HTML CSS and JavaScript
+@publisher: CodingLab
+@date: 2025-03-21
+@link: https://www.youtube.com/watch?v=uliYkHK3pKg
+*/
 .increment {
     height: 35px;
     width: 98px;

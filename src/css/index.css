@@ -91,7 +91,13 @@
   overflow: hidden;
 }
 
-/* image carousel */ 
+/* image carousel */
+/* Code inspired by: 
+How TO - Horizontal Scrollable Image Gallery
+@publisher: W3Schools
+@date: 2023-03-28
+@link: https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp
+*/
 .image-box {
   margin: 0px;
   width: 275px;

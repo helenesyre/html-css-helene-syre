@@ -103,7 +103,12 @@
 }
 
 /* Breadcrumb */
-/* Code from: https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
+/* Code from: 
+How TO - CSS Breadcrumbs
+@publisher: W3Schools
+@date: 2023-03-28
+@link: https://www.w3schools.com/howto/howto_css_breadcrumbs.asp
+*/
 ul.breadcrumb {
   padding:0px;
   margin: 0;
@@ -155,7 +160,12 @@ a {
 }
 
 /* Search overlay */
-/* Code inspired from: https://eichefam.net/2011/12/21/popup-windows-without-javascript/ */
+/* Code inspired from: 
+Popup windows without JavaScript
+@publisher: Paul
+@date: 2023-03-28
+@link: https://eichefam.net/2011/12/21/popup-windows-without-javascript/
+*/
 .content {
   max-height: 0;
   overflow: hidden;
